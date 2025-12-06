@@ -1,5 +1,4 @@
 name: Auto Post Matches
-
 on:
   schedule:
     - cron: "*/3 * * * *"   # Runs every 3 minutes
@@ -11,32 +10,43 @@ jobs:
     steps:
       - name: Check allowed time window (only run between 12:00–15:00 IST)
         run: |
-          # Convert UTC to IST (+5 hours 30 min)
-          # GitHub runner = UTC
-          HOUR=$(date -u +"%H")
-          MINUTE=$(date -u +"%M")
-
-          # Compute IST hour
-          IST_HOUR=$(( (10#$HOUR + 5) % 24 ))
-
-          # Because IST is UTC+5:30, adjust minutes
-          if [ $MINUTE -ge 30 ]; then
-            IST_HOUR=$(( (IST_HOUR + 1) % 24 ))
-          fi
-
-          echo "Current IST hour: $IST_HOUR"
-
-          # Allowed window = 12:00 to 15:00 IST
+          # Get current UTC time
+          UTC_HOUR=$(date -u +"%H")
+          UTC_MINUTE=$(date -u +"%M")
+          
+          echo "Current UTC time: ${UTC_HOUR}:${UTC_MINUTE}"
+          
+          # Convert UTC to IST (UTC + 5:30)
+          # Calculate total minutes since midnight in UTC
+          UTC_TOTAL_MINUTES=$((10#$UTC_HOUR * 60 + 10#$UTC_MINUTE))
+          
+          # Add 5 hours 30 minutes (330 minutes) for IST
+          IST_TOTAL_MINUTES=$((UTC_TOTAL_MINUTES + 330))
+          
+          # Handle day overflow (if IST goes past midnight)
+          IST_TOTAL_MINUTES=$((IST_TOTAL_MINUTES % 1440))
+          
+          # Calculate IST hour and minute
+          IST_HOUR=$((IST_TOTAL_MINUTES / 60))
+          IST_MINUTE=$((IST_TOTAL_MINUTES % 60))
+          
+          echo "Current IST time: ${IST_HOUR}:${IST_MINUTE}"
+          
+          # Check if time is between 12:00 and 15:00 IST (12 PM to 3 PM)
+          # Window: 12:00 (inclusive) to 15:00 (exclusive)
           if [ $IST_HOUR -lt 12 ] || [ $IST_HOUR -ge 15 ]; then
             echo "⛔ Outside allowed window (12:00–15:00 IST). Exiting run."
+            echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
             exit 0
           fi
+          
+          echo "✅ Inside allowed window (12:00–15:00 IST). Running script."
+          echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
 
-          echo "✔ Inside allowed window. Running script."
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - uses: actions/checkout@v3
-
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "18"
