@@ -1,30 +1,54 @@
-name: Post Blogger Matches
+name: Auto Post Matches
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour
-  workflow_dispatch:       # allow manual run from Actions tab
+    - cron: "*/3 * * * *"   # Runs every 3 minutes
+  workflow_dispatch: {}
 
 jobs:
-  post-matches:
+  autopost:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Check allowed time window (only run between 12:00–15:00 IST)
+        run: |
+          # Convert UTC to IST (+5 hours 30 min)
+          # GitHub runner = UTC
+          HOUR=$(date -u +"%H")
+          MINUTE=$(date -u +"%M")
+
+          # Compute IST hour
+          IST_HOUR=$(( (10#$HOUR + 5) % 24 ))
+
+          # Because IST is UTC+5:30, adjust minutes
+          if [ $MINUTE -ge 30 ]; then
+            IST_HOUR=$(( (IST_HOUR + 1) % 24 ))
+          fi
+
+          echo "Current IST hour: $IST_HOUR"
+
+          # Allowed window = 12:00 to 15:00 IST
+          if [ $IST_HOUR -lt 12 ] || [ $IST_HOUR -ge 15 ]; then
+            echo "⛔ Outside allowed window (12:00–15:00 IST). Exiting run."
+            exit 0
+          fi
+
+          echo "✔ Inside allowed window. Running script."
+
+      - uses: actions/checkout@v3
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: "18"
 
-      - name: Install deps
+      - name: Install dependencies
         run: npm install
 
-      - name: Post matches to Blogger
+      - name: Run post-matches script
         env:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
           BLOG_ID: ${{ secrets.BLOG_ID }}
           JSON_URL: ${{ secrets.JSON_URL }}
-        run: npm run post-matches
+        run: node post-matches.js
