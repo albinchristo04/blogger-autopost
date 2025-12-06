@@ -1,0 +1,9 @@
+{
+  "name": "blogger-autopost",
+  "version": "1.0.0",
+  "main": "post-matches.js",
+  "type": "module",
+  "scripts": {
+    "post-matches": "node post-matches.js"
+  }
+}
