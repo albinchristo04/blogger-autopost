@@ -157,25 +157,34 @@ async function main() {
       ]
     };
 
-    const postRes = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(postBody)
-    });
+const postRes = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/`, {
+  method: 'POST',
+  headers: {
+    Authorization: `Bearer ${accessToken}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(postBody)
+});
 
-    if (!postRes.ok) {
-      const text = await postRes.text();
-      console.error('Failed to create post for', sid, postRes.status, text);
-      continue;
-    }
+if (!postRes.ok) {
+  const text = await postRes.text();
+  console.error('Failed to create post for', sid, postRes.status, text);
 
-    const postJson = await postRes.json();
-    console.log('Created post:', sid, postJson.id, title);
-    createdCount++;
+  // If Blogger says rate limit exceeded, stop this run
+  if (postRes.status === 429) {
+    console.error('Hit Blogger rate limit, stopping this run.');
+    break;
   }
+  continue;
+}
+
+const postJson = await postRes.json();
+console.log('Created post:', sid, postJson.id, title);
+createdCount++;
+
+// small delay between posts to be nice to API
+await new Promise(r => setTimeout(r, 2000));
+
 
   console.log(`Done. Created ${createdCount} new posts.`);
 }
