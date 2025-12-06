@@ -120,7 +120,8 @@ async function main() {
   console.log(`Existing match IDs in Blogger: ${existingMatchIds.size}`);
 
   // Limit per run to be safe
-  const MAX_NEW_POSTS = 10;
+  const MAX_NEW_POSTS = 3; // small number, script can run hourly
+
   let createdCount = 0;
 
   for (const s of upcoming) {
