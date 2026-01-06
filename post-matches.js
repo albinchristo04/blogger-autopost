@@ -403,6 +403,15 @@ ${switcherScript}
 
 // ---- Main flow ----
 
+function slugify(text) {
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
 async function main() {
   console.log('Starting post-matches run...');
 
@@ -420,8 +429,18 @@ async function main() {
   const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
   const events = rawData.events || [];
 
+  // Deduplicate by description + date + time
+  const uniqueEvents = [];
+  const seenKeys = new Set();
+  for (const e of events) {
+    const key = `${e.description}|${e.date}|${e.time}`;
+    if (seenKeys.has(key)) continue;
+    seenKeys.add(key);
+    uniqueEvents.push(e);
+  }
+
   // Transform to internal format
-  const groupedMatches = events.map(e => {
+  const groupedMatches = uniqueEvents.map(e => {
     // Parse date/time
     let starts_at = 0;
     if (e.date && e.time) {
@@ -429,11 +448,17 @@ async function main() {
       starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
     }
 
-    // Map channels to streams
+    // Map channels to streams, preferring decoded_url
     const streams = (e.channels || []).map((c, idx) => ({
       name: c.name || `Stream ${idx + 1}`,
-      url: c.url
+      url: c.decoded_url || c.url
     }));
+
+    // Create a robust SID for Blogger labels (max 50 chars total)
+    // match:slug-date
+    const slug = slugify(e.description).slice(0, 30);
+    const dateStr = (e.date || '').replace(/-/g, '');
+    const sid = `${slug}-${dateStr}`;
 
     return {
       name: e.description,
@@ -442,14 +467,14 @@ async function main() {
       starts_at: starts_at,
       streams: streams,
       poster: e.flag_url,
-      id: e.id
+      sid: sid
     };
   });
 
   const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
 
-  console.log(`[INFO] Loaded ${events.length} events from rojadirecta_events.json.`);
-  console.log(`[INFO] Upcoming (today+tomorrow) matches to process: ${upcoming.length}`);
+  console.log(`[INFO] Loaded ${events.length} events, ${uniqueEvents.length} unique.`);
+  console.log(`[INFO] Upcoming matches to process: ${upcoming.length}`);
 
   // Dedupe with Blogger labels
   const existingMatchIds = await fetchExistingMatchIds(accessToken);
@@ -463,7 +488,7 @@ async function main() {
       break;
     }
 
-    const sid = String(s.id || s.tag || s.uri_name || s.name || s.title || '').trim();
+    const sid = s.sid;
     if (!sid) continue;
 
     if (existingMatchIds.has(sid)) {

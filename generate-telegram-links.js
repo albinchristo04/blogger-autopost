@@ -180,6 +180,15 @@ async function fetchMatchPosts(accessToken) {
   return map;
 }
 
+function slugify(text) {
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
 async function main() {
   const accessToken = await getAccessToken();
 
@@ -192,16 +201,30 @@ async function main() {
   const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
   const events = rawData.events || [];
 
-  const groupedMatches = events.map(e => {
+  // Transform and deduplicate
+  const uniqueEvents = [];
+  const seenKeys = new Set();
+  for (const e of events) {
+    const key = `${e.description}|${e.date}|${e.time}`;
+    if (seenKeys.has(key)) continue;
+    seenKeys.add(key);
+    uniqueEvents.push(e);
+  }
+
+  const groupedMatches = uniqueEvents.map(e => {
     let starts_at = 0;
     if (e.date && e.time) {
       const dtStr = `${e.date}T${e.time}`;
       starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
     }
+    const slug = slugify(e.description).slice(0, 30);
+    const dateStr = (e.date || '').replace(/-/g, '');
+    const sid = `${slug}-${dateStr}`;
+
     return {
       name: e.description,
       starts_at: starts_at,
-      id: e.id
+      sid: sid
     };
   });
 
@@ -210,7 +233,7 @@ async function main() {
 
   console.log('--- Telegram share links (today + tomorrow) ---');
   for (const s of upcoming) {
-    const sid = String(s.id || s.name || '').trim();
+    const sid = s.sid;
     if (!sid) continue;
     const postInfo = postsMap.get(sid);
     if (!postInfo) continue;

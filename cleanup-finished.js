@@ -152,6 +152,15 @@ async function listMatchPosts(accessToken) {
   return posts;
 }
 
+function slugify(text) {
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
 async function main() {
   console.log('Starting cleanup-finished run...');
 
@@ -174,7 +183,10 @@ async function main() {
       const dtStr = `${e.date}T${e.time}`;
       starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
     }
-    const sid = String(e.id || e.description || '').trim();
+    const slug = slugify(e.description).slice(0, 30);
+    const dateStr = (e.date || '').replace(/-/g, '');
+    const sid = `${slug}-${dateStr}`;
+
     if (!sid) continue;
     matchById.set(sid, { ...e, starts_at });
   }
