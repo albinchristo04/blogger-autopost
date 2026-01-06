@@ -6,7 +6,7 @@ const {
   CLIENT_SECRET,
   REFRESH_TOKEN,
   BLOG_ID,
-  JSON_URL = 'https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json'
+  JSON_URL = 'https://raw.githubusercontent.com/albinchristo04/tarjetarojaenvivoo/refs/heads/main/results/player_urls_latest.json'
 } = process.env;
 
 const FINISHED_HOURS = 4;           // consider match finished 4h after kickoff
@@ -40,6 +40,42 @@ async function getAccessToken() {
 
 function normalizeStreams(json) {
   const streams = [];
+
+  // New format: json.events is an array
+  if (json.events && Array.isArray(json.events)) {
+    json.events.forEach(e => {
+      // Check if it's the new format item (has event_title)
+      if (e.event_title) {
+        const s = {};
+        s.name = e.event_title;
+        s.iframe = e.player_url;
+        s._category = e.sport || '';
+
+        // Extract league from title if needed
+        if (!s._category && s.name.includes(':')) {
+          const parts = s.name.split(':');
+          s._category = parts[0].trim();
+          s.name = parts.slice(1).join(':').trim();
+        }
+
+        // Parse time. Format: "HH:MM:SS"
+        // We assume this is for the current day.
+        if (e.event_time) {
+          const [h, m, sec] = e.event_time.split(':').map(Number);
+          const date = new Date();
+          date.setHours(h, m, sec || 0, 0);
+          s.starts_at = Math.floor(date.getTime() / 1000);
+        }
+
+        streams.push(s);
+      } else {
+        streams.push(e);
+      }
+    });
+    return streams;
+  }
+
+  // Old format
   if (json.events && Array.isArray(json.events.streams)) {
     json.events.streams.forEach(cat => {
       if (Array.isArray(cat.streams)) {
