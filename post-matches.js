@@ -409,18 +409,46 @@ async function main() {
   const accessToken = await getAccessToken();
   console.log('[OK] Got access token');
 
-  // Read local matches.json
-  const MATCHES_FILE = path.join(__dirname, 'matches.json');
+  // Read local rojadirecta_events.json
+  const MATCHES_FILE = path.join(__dirname, 'rojadirecta_events.json');
 
   if (!fs.existsSync(MATCHES_FILE)) {
-    console.error('[FATAL] matches.json not found. Run process-matches.js first.');
+    console.error('[FATAL] rojadirecta_events.json not found. Run libre.py first.');
     process.exit(1);
   }
 
-  const groupedMatches = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
+  const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
+  const events = rawData.events || [];
+
+  // Transform to internal format
+  const groupedMatches = events.map(e => {
+    // Parse date/time
+    let starts_at = 0;
+    if (e.date && e.time) {
+      const dtStr = `${e.date}T${e.time}`;
+      starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
+    }
+
+    // Map channels to streams
+    const streams = (e.channels || []).map((c, idx) => ({
+      name: c.name || `Stream ${idx + 1}`,
+      url: c.url
+    }));
+
+    return {
+      name: e.description,
+      title: e.description,
+      _category: e.country,
+      starts_at: starts_at,
+      streams: streams,
+      poster: e.flag_url,
+      id: e.id
+    };
+  });
+
   const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
 
-  console.log(`[INFO] Loaded ${groupedMatches.length} matches from matches.json.`);
+  console.log(`[INFO] Loaded ${events.length} events from rojadirecta_events.json.`);
   console.log(`[INFO] Upcoming (today+tomorrow) matches to process: ${upcoming.length}`);
 
   // Dedupe with Blogger labels

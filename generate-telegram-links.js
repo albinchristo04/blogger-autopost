@@ -1,6 +1,13 @@
 // generate-telegram-links.js
 // Prints "Title – URL" for upcoming (today+tomorrow) matches that already have posts.
 
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const {
   CLIENT_ID,
   CLIENT_SECRET,
@@ -176,27 +183,39 @@ async function fetchMatchPosts(accessToken) {
 async function main() {
   const accessToken = await getAccessToken();
 
-  const res = await fetch(JSON_URL);
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Failed to fetch JSON: ${res.status} ${text}`);
+  const MATCHES_FILE = path.join(__dirname, 'rojadirecta_events.json');
+  if (!fs.existsSync(MATCHES_FILE)) {
+    console.error('[FATAL] rojadirecta_events.json not found. Run libre.py first.');
+    process.exit(1);
   }
-  const json = await res.json();
 
-  const streams = normalizeStreams(json);
-  const groupedMatches = groupMatches(streams);
+  const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
+  const events = rawData.events || [];
+
+  const groupedMatches = events.map(e => {
+    let starts_at = 0;
+    if (e.date && e.time) {
+      const dtStr = `${e.date}T${e.time}`;
+      starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
+    }
+    return {
+      name: e.description,
+      starts_at: starts_at,
+      id: e.id
+    };
+  });
+
   const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
-
   const postsMap = await fetchMatchPosts(accessToken);
 
   console.log('--- Telegram share links (today + tomorrow) ---');
   for (const s of upcoming) {
-    const sid = String(s.id || s.tag || s.uri_name || s.name || s.title || '').trim();
+    const sid = String(s.id || s.name || '').trim();
     if (!sid) continue;
     const postInfo = postsMap.get(sid);
     if (!postInfo) continue;
 
-    const title = s.name || s.title || postInfo.title || sid;
+    const title = s.name || postInfo.title || sid;
     console.log(`${title} – ${postInfo.url}`);
   }
 }

@@ -1,6 +1,13 @@
 // cleanup-finished.js
 // Deletes Blogger posts for matches that are already finished (older than FINISHED_HOURS).
 
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const {
   CLIENT_ID,
   CLIENT_SECRET,
@@ -151,21 +158,25 @@ async function main() {
   const accessToken = await getAccessToken();
   console.log('[OK] Got access token');
 
-  // Fetch events JSON
-  const evRes = await fetch(JSON_URL);
-  if (!evRes.ok) {
-    const text = await evRes.text();
-    throw new Error(`Failed to fetch JSON: ${evRes.status} ${text}`);
+  const MATCHES_FILE = path.join(__dirname, 'rojadirecta_events.json');
+  if (!fs.existsSync(MATCHES_FILE)) {
+    console.error('[FATAL] rojadirecta_events.json not found. Run libre.py first.');
+    process.exit(1);
   }
-  const evJson = await evRes.json();
-  const streams = normalizeStreams(evJson);
-  const groupedMatches = groupMatches(streams);
+
+  const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
+  const events = rawData.events || [];
 
   const matchById = new Map();
-  for (const s of groupedMatches) {
-    const sid = String(s.id || s.tag || s.uri_name || s.name || s.title || '').trim();
+  for (const e of events) {
+    let starts_at = 0;
+    if (e.date && e.time) {
+      const dtStr = `${e.date}T${e.time}`;
+      starts_at = Math.floor(new Date(dtStr).getTime() / 1000);
+    }
+    const sid = String(e.id || e.description || '').trim();
     if (!sid) continue;
-    matchById.set(sid, s);
+    matchById.set(sid, { ...e, starts_at });
   }
 
   const posts = await listMatchPosts(accessToken);
