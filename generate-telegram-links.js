@@ -87,6 +87,29 @@ function normalizeStreams(json) {
   return streams;
 }
 
+// Group streams by match name to handle multiple channels per match
+function groupMatches(streams) {
+  const groups = {};
+  for (const s of streams) {
+    const key = s.name; // e.g. "Pisa vs Como"
+    if (!key) continue;
+
+    if (!groups[key]) {
+      groups[key] = {
+        ...s,
+        streams: []
+      };
+    }
+
+    // Add this stream to the list
+    groups[key].streams.push({
+      name: s.canal_name || `Stream ${groups[key].streams.length + 1}`,
+      url: s.iframe
+    });
+  }
+  return Object.values(groups);
+}
+
 function filterUpcomingTodayTomorrow(streams) {
   const now = new Date();
   const nowTs = Math.floor(now.getTime() / 1000);
@@ -102,7 +125,7 @@ function filterUpcomingTodayTomorrow(streams) {
   return streams.filter(s => {
     const ts = Number(s.starts_at);
     if (!ts || Number.isNaN(ts)) return false;
-    return ts >= startTodayUtc && ts < startDayAfterTomorrowUtc && ts >= nowTs;
+    return ts >= startTodayUtc && ts < startDayAfterTomorrowUtc;
   });
 }
 
@@ -161,7 +184,8 @@ async function main() {
   const json = await res.json();
 
   const streams = normalizeStreams(json);
-  const upcoming = filterUpcomingTodayTomorrow(streams);
+  const groupedMatches = groupMatches(streams);
+  const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
 
   const postsMap = await fetchMatchPosts(accessToken);
 

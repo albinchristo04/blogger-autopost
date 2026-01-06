@@ -91,6 +91,29 @@ function normalizeStreams(json) {
   return streams;
 }
 
+// Group streams by match name to handle multiple channels per match
+function groupMatches(streams) {
+  const groups = {};
+  for (const s of streams) {
+    const key = s.name; // e.g. "Pisa vs Como"
+    if (!key) continue;
+
+    if (!groups[key]) {
+      groups[key] = {
+        ...s,
+        streams: []
+      };
+    }
+
+    // Add this stream to the list
+    groups[key].streams.push({
+      name: s.canal_name || `Stream ${groups[key].streams.length + 1}`,
+      url: s.iframe
+    });
+  }
+  return Object.values(groups);
+}
+
 async function listMatchPosts(accessToken) {
   const posts = [];
   let pageToken;
@@ -136,9 +159,10 @@ async function main() {
   }
   const evJson = await evRes.json();
   const streams = normalizeStreams(evJson);
+  const groupedMatches = groupMatches(streams);
 
   const matchById = new Map();
-  for (const s of streams) {
+  for (const s of groupedMatches) {
     const sid = String(s.id || s.tag || s.uri_name || s.name || s.title || '').trim();
     if (!sid) continue;
     matchById.set(sid, s);

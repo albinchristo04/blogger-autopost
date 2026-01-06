@@ -2,6 +2,13 @@
 // Auto-create Blogger posts for today's + tomorrow's FUTURE matches from your JSON,
 // with embedded AdSense blocks and a match layout.
 
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 // Env vars (provided via GitHub Actions or locally)
 const {
   CLIENT_ID,
@@ -177,6 +184,7 @@ function normalizeStreams(json) {
         s.name = e.event_title;
         s.iframe = e.player_url;
         s._category = e.sport || '';
+        s.canal_name = e.canal_name || ''; // Capture channel name
 
         // Extract league from title if needed
         if (!s._category && s.name.includes(':')) {
@@ -218,6 +226,29 @@ function normalizeStreams(json) {
   return streams;
 }
 
+// Group streams by match name to handle multiple channels per match
+function groupMatches(streams) {
+  const groups = {};
+  for (const s of streams) {
+    const key = s.name; // e.g. "Pisa vs Como"
+    if (!key) continue;
+
+    if (!groups[key]) {
+      groups[key] = {
+        ...s,
+        streams: []
+      };
+    }
+
+    // Add this stream to the list
+    groups[key].streams.push({
+      name: s.canal_name || `Stream ${groups[key].streams.length + 1}`,
+      url: s.iframe
+    });
+  }
+  return Object.values(groups);
+}
+
 // Filter matches: today + tomorrow (UTC) AND in the future
 function filterUpcomingTodayTomorrow(streams) {
   const now = new Date();
@@ -234,11 +265,11 @@ function filterUpcomingTodayTomorrow(streams) {
   return streams.filter(s => {
     const ts = Number(s.starts_at);
     if (!ts || Number.isNaN(ts)) return false;
-    return ts >= startTodayUtc && ts < startDayAfterTomorrowUtc && ts >= nowTs;
+    return ts >= startTodayUtc && ts < startDayAfterTomorrowUtc;
   });
 }
 
-// Build HTML content for a match post, with ads + featured image
+// Build HTML content for a match post, with ads + featured image + multi-stream player
 function buildPostContent(match) {
   const startsTs = Number(match.starts_at);
   const starts = startsTs
@@ -248,13 +279,52 @@ function buildPostContent(match) {
   const title = match.name || match.title || '';
   const league = match._category || '';
   const tag = match.tag || '';
-  const iframe = match.iframe || (match.resolved_m3u8 && match.resolved_m3u8[0] && match.resolved_m3u8[0].url) || '';
+
+  // Prepare streams
+  const streamList = match.streams && match.streams.length > 0
+    ? match.streams
+    : [{ name: 'Live Stream', url: match.iframe || (match.resolved_m3u8 && match.resolved_m3u8[0] && match.resolved_m3u8[0].url) || '' }];
+
+  const defaultIframe = streamList[0].url;
+
   const posterHtml = match.poster
     ? `<div class="match-featured-image"><img src="${escapeHtml(match.poster)}" alt="${escapeHtml(title)}" loading="lazy"/></div>`
     : '';
 
+  // Generate buttons HTML
+  let buttonsHtml = '';
+  if (streamList.length > 1) {
+    buttonsHtml = `<div class="stream-buttons" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;">`;
+    streamList.forEach((s, idx) => {
+      const activeClass = idx === 0 ? 'active-stream' : '';
+      buttonsHtml += `<button class="stream-btn ${activeClass}" onclick="changeStream('${escapeHtml(s.url)}', this)" style="padding:8px 16px;cursor:pointer;background:#eee;border:none;border-radius:4px;font-weight:bold;">${escapeHtml(s.name)}</button>`;
+    });
+    buttonsHtml += `</div>`;
+  }
+
+  // Script to handle stream switching
+  const switcherScript = `
+<script>
+function changeStream(url, btn) {
+  var iframe = document.getElementById('match-iframe');
+  if(iframe) iframe.src = url;
+  
+  // Update active button style
+  var btns = document.querySelectorAll('.stream-btn');
+  btns.forEach(function(b) { b.style.background = '#eee'; b.style.color = '#000'; });
+  if(btn) { btn.style.background = '#d32f2f'; btn.style.color = '#fff'; }
+}
+// Set initial active button style
+document.addEventListener('DOMContentLoaded', function() {
+  var firstBtn = document.querySelector('.stream-btn');
+  if(firstBtn) { firstBtn.style.background = '#d32f2f'; firstBtn.style.color = '#fff'; }
+});
+</script>
+`;
+
   return `
 ${ADS_BOOTSTRAP}
+${switcherScript}
 
 <div class="match-page">
   ${AD_TOP}
@@ -280,10 +350,12 @@ ${ADS_BOOTSTRAP}
         </div>
 
         ${AD_PLAYER}
+        
+        ${buttonsHtml}
 
         <div class="match-player-frame">
-          ${iframe
-      ? `<iframe src="${escapeHtml(iframe)}"
+          ${defaultIframe
+      ? `<iframe id="match-iframe" src="${escapeHtml(defaultIframe)}"
                          width="100%"
                          height="100%"
                          frameborder="0"
@@ -302,6 +374,7 @@ ${ADS_BOOTSTRAP}
           <li><strong>Match:</strong> ${escapeHtml(title)}</li>
           ${league ? `<li><strong>League:</strong> ${escapeHtml(league)}</li>` : ''}
           <li><strong>Kickoff Time:</strong> ${escapeHtml(starts)}</li>
+          <li><strong>Channels:</strong> ${streamList.length} Available</li>
         </ul>
 
         ${AD_BODY}
@@ -336,17 +409,19 @@ async function main() {
   const accessToken = await getAccessToken();
   console.log('[OK] Got access token');
 
-  // Fetch events JSON
-  const res = await fetch(JSON_URL);
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Failed to fetch JSON: ${res.status} ${text}`);
-  }
-  const json = await res.json();
+  // Read local matches.json
+  const MATCHES_FILE = path.join(__dirname, 'matches.json');
 
-  const streams = normalizeStreams(json);
-  const upcoming = filterUpcomingTodayTomorrow(streams);
-  console.log(`[INFO] Upcoming (today+tomorrow, future) matches: ${upcoming.length}`);
+  if (!fs.existsSync(MATCHES_FILE)) {
+    console.error('[FATAL] matches.json not found. Run process-matches.js first.');
+    process.exit(1);
+  }
+
+  const groupedMatches = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
+  const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
+
+  console.log(`[INFO] Loaded ${groupedMatches.length} matches from matches.json.`);
+  console.log(`[INFO] Upcoming (today+tomorrow) matches to process: ${upcoming.length}`);
 
   // Dedupe with Blogger labels
   const existingMatchIds = await fetchExistingMatchIds(accessToken);
@@ -369,7 +444,7 @@ async function main() {
     }
 
     const title = s.name || s.title || sid;
-    console.log(`[POST] Creating post for match ${sid} (${title})`);
+    console.log(`[POST] Creating post for match ${sid} (${title}) - ${s.streams.length} streams`);
 
     const content = buildPostContent(s);
 
