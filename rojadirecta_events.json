@@ -1,32 +1,5 @@
 {
-  "scraped_at": "2026-01-07T01:54:33.281197",
-  "total_events": 1,
-  "events": [
-    {
-      "id": 29822,
-      "time": "19:30:00",
-      "date": "2026-01-06",
-      "description": "NHL:  Toronto Maple Leafs vs Florida Panthers",
-      "country": "NHL",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nhl_4a934e9b3a_efd6d7f06f.png",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        }
-      ],
-      "channel_count": 3
-    }
-  ]
+  "scraped_at": "2026-01-07T03:41:03.097426",
+  "total_events": 0,
+  "events": []
 }
