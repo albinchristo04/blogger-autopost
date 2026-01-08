@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-08T14:28:03.809032",
+  "scraped_at": "2026-01-08T15:28:51.246484",
   "total_events": 9,
   "events": [
     {
@@ -10,11 +10,6 @@
       "country": "Arabia Saudita",
       "flag_url": "https://img.futbolonlinehd.com/uploads/arabia_saudita_82c6f9c376_70d77b2bc2.png",
       "channels": [
-        {
-          "name": "Fox Sports 2 USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzMl91c2E=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports2_usa"
-        },
         {
           "name": "FOX Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
@@ -31,7 +26,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 4
+      "channel_count": 3
     },
     {
       "id": 29844,
@@ -120,21 +115,6 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
       "channels": [
         {
-          "name": "Movistar Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bW92aXN0YXI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=movistar"
-        },
-        {
-          "name": "Movistar Deportes I OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1tb3Zpc3Rhcg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=movistar"
-        },
-        {
-          "name": "Movistar Deportes | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbnRvMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=evento2"
-        },
-        {
           "name": "America TV",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
@@ -158,9 +138,39 @@
           "name": "ESPN Deportes  | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Movistar Deportes",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bW92aXN0YXI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=movistar"
+        },
+        {
+          "name": "Movistar Deportes I OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1tb3Zpc3Rhcg==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=movistar"
+        },
+        {
+          "name": "Movistar Deportes | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbnRvMg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=evento2"
+        },
+        {
+          "name": "Win Sports +",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsportsplus"
         }
       ],
-      "channel_count": 8
+      "channel_count": 11
     },
     {
       "id": 29845,
