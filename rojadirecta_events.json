@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-08T16:33:36.264895",
-  "total_events": 9,
+  "scraped_at": "2026-01-08T17:28:39.169109",
+  "total_events": 10,
   "events": [
     {
       "id": 29850,
@@ -55,9 +55,14 @@
           "name": "FOX Deportes | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
         }
       ],
-      "channel_count": 4
+      "channel_count": 5
     },
     {
       "id": 29851,
@@ -102,9 +107,14 @@
           "name": "ESPN 2 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 29847,
@@ -199,9 +209,14 @@
           "name": "ESPN 2 MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
-      "channel_count": 4
+      "channel_count": 5
     },
     {
       "id": 29843,
@@ -225,9 +240,14 @@
           "name": "ESPN AR┃OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 29848,
@@ -251,9 +271,14 @@
           "name": "ESPN 4 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 29849,
@@ -267,6 +292,22 @@
           "name": "DISNEY +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29852,
+      "time": "18:30:00",
+      "date": "2026-01-08",
+      "description": "Amistoso Internacional: Santa Cruz vs Defensa y Justicia",
+      "country": "Amistoso",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
         }
       ],
       "channel_count": 1
