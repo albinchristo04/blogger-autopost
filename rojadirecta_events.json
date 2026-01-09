@@ -1,19 +1,19 @@
 {
-  "scraped_at": "2026-01-09T01:56:02.887600",
+  "scraped_at": "2026-01-09T03:43:08.314351",
   "total_events": 1,
   "events": [
     {
-      "id": 29852,
-      "time": "18:30:00",
+      "id": 29869,
+      "time": "20:00:00",
       "date": "2026-01-08",
-      "description": "Amistoso Internacional: Santa Cruz vs Defensa y Justicia",
-      "country": "Amistoso",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
+      "description": "NBA: Chicago Bulls vs Miami Heat",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+          "name": "NBA 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba02"
         }
       ],
       "channel_count": 1
