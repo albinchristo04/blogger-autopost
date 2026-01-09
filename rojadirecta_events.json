@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-09T18:36:01.383081",
-  "total_events": 18,
+  "scraped_at": "2026-01-09T19:21:42.219426",
+  "total_events": 17,
   "events": [
-    {
-      "id": 29855,
-      "time": "11:00:00",
-      "date": "2026-01-09",
-      "description": "Copa Africana de Naciones: Malí vs Senegal",
-      "country": "Copa Africana",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/copa_africa_f97d27e653.jpg",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsports"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 29867,
       "time": "12:30:00",
