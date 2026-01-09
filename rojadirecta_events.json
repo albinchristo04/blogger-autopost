@@ -1,49 +1,7 @@
 {
-  "scraped_at": "2026-01-09T21:23:47.095566",
-  "total_events": 16,
+  "scraped_at": "2026-01-09T22:24:07.432300",
+  "total_events": 14,
   "events": [
-    {
-      "id": 29856,
-      "time": "14:00:00",
-      "date": "2026-01-09",
-      "description": "Copa Africana de Naciones: \nCamerún vs Marruecos",
-      "country": "Copa Africana",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/copa_africa_f97d27e653.jpg",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsports"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 29866,
-      "time": "14:00:00",
-      "date": "2026-01-09",
-      "description": " Eerste Divisie: Emmen vs Cambuur",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 29868,
       "time": "14:30:00",
