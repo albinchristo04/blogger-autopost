@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-09T17:25:14.972966",
-  "total_events": 16,
+  "scraped_at": "2026-01-09T18:36:01.383081",
+  "total_events": 18,
   "events": [
     {
       "id": 29855,
@@ -231,12 +231,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "ESPN Plus 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMxCg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus1\n"
+        },
+        {
+          "name": "ESPN Plus 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMy",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus2"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 29861,
@@ -265,22 +270,6 @@
       "channel_count": 3
     },
     {
-      "id": 29862,
-      "time": "17:00:00",
-      "date": "2026-01-09",
-      "description": "Fútbol 7 Internacional: \nEE. UU. vs Alemania",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 29863,
       "time": "20:00:00",
       "date": "2026-01-09",
@@ -289,9 +278,25 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29870,
+      "time": "20:00:00",
+      "date": "2026-01-09",
+      "description": "NBA: Memphis Grizzlies vs Oklahoma City Thunder",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
         }
       ],
       "channel_count": 1
@@ -323,6 +328,22 @@
       "channel_count": 3
     },
     {
+      "id": 29871,
+      "time": "22:00:00",
+      "date": "2026-01-09",
+      "description": "NBA: Golden State Warriors vs Sacramento Kings",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 29865,
       "time": "22:00:00",
       "date": "2026-01-09",
@@ -347,6 +368,22 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 29872,
+      "time": "22:30:00",
+      "date": "2026-01-09",
+      "description": "NBA: Los Angeles Lakers vs Milwaukee Bucks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
+        }
+      ],
+      "channel_count": 1
     }
   ]
 }
