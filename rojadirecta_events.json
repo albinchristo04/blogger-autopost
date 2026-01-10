@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-10T01:51:47.708109",
+  "scraped_at": "2026-01-10T03:26:21.034883",
   "total_events": 6,
   "events": [
-    {
-      "id": 29863,
-      "time": "20:00:00",
-      "date": "2026-01-09",
-      "description": "Liga MX Femenil: \nAtlético San Luis vs Pumas UNAM",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Disney 06",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 29870,
       "time": "20:00:00",
@@ -27,9 +11,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
+          "name": "NBA 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
         }
       ],
       "channel_count": 1
@@ -61,6 +45,22 @@
       "channel_count": 3
     },
     {
+      "id": 29863,
+      "time": "20:30:00",
+      "date": "2026-01-09",
+      "description": "Liga MX Femenil: \nAtlético San Luis vs Pumas UNAM",
+      "country": "México",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 29871,
       "time": "22:00:00",
       "date": "2026-01-09",
@@ -69,9 +69,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
+          "name": "NBA 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba02"
         }
       ],
       "channel_count": 1
@@ -111,9 +111,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzU=",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento5"
+          "name": "NBA 03 ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDM=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba03"
         }
       ],
       "channel_count": 1
