@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-10T04:35:42.643225",
-  "total_events": 4,
+  "scraped_at": "2026-01-10T05:23:47.511008",
+  "total_events": 3,
   "events": [
-    {
-      "id": 29863,
-      "time": "20:30:00",
-      "date": "2026-01-09",
-      "description": "Liga MX Femenil: \nAtlético San Luis vs Pumas UNAM",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Disney 06",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 29871,
       "time": "22:00:00",
