@@ -1,49 +1,7 @@
 {
-  "scraped_at": "2026-01-10T03:26:21.034883",
-  "total_events": 6,
+  "scraped_at": "2026-01-10T04:35:42.643225",
+  "total_events": 4,
   "events": [
-    {
-      "id": 29870,
-      "time": "20:00:00",
-      "date": "2026-01-09",
-      "description": "NBA: Memphis Grizzlies vs Oklahoma City Thunder",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "NBA 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 29864,
-      "time": "20:00:00",
-      "date": "2026-01-09",
-      "description": "Liga MX: \nMazatlán vs Juárez",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Azteca 7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YXp0ZWNhNw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09YXp0ZWNhNw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1henRlY2E3",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=azteca7"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 29863,
       "time": "20:30:00",
