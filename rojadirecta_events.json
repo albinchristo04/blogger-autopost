@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-10T13:30:39.981371",
-  "total_events": 43,
+  "scraped_at": "2026-01-10T14:21:19.413145",
+  "total_events": 44,
   "events": [
     {
       "id": 29888,
@@ -11,41 +11,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 29889,
-      "time": "07:15:00",
-      "date": "2026-01-10",
-      "description": "FA Cup: Everton vs Sunderland",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 29890,
-      "time": "07:15:00",
-      "date": "2026-01-10",
-      "description": "FA Cup: \nMacclesfield vs Crystal Palace",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
         }
       ],
       "channel_count": 1
@@ -59,9 +27,41 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29889,
+      "time": "07:15:00",
+      "date": "2026-01-10",
+      "description": "FA Cup: Everton vs Sunderland",
+      "country": "Inglaterra",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
+      "channels": [
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29890,
+      "time": "07:15:00",
+      "date": "2026-01-10",
+      "description": "FA Cup: \nMacclesfield vs Crystal Palace",
+      "country": "Inglaterra",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
       "channel_count": 1
@@ -88,9 +88,14 @@
           "name": "ESPN 2 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 29873,
@@ -114,9 +119,45 @@
           "name": "ESPN Deportes  | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "DSports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZHNwb3J0cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=dsports"
         }
       ],
-      "channel_count": 3
+      "channel_count": 6
+    },
+    {
+      "id": 29916,
+      "time": "08:00:00",
+      "date": "2026-01-10",
+      "description": "LaLiga Hypermotion: Mirandés vs Almería",
+      "country": "España",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09aHlwZXJtb3Rpb24x",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 29877,
@@ -142,6 +183,11 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney 07",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Nw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney7"
+        },
+        {
           "name": "ESPN MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
@@ -157,7 +203,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
         }
       ],
-      "channel_count": 6
+      "channel_count": 7
     },
     {
       "id": 29878,
@@ -168,12 +214,27 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 08",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
+        },
+        {
+          "name": "FOX Deportes",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 1
+      "channel_count": 4
     },
     {
       "id": 29881,
@@ -184,9 +245,40 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 09",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
+        },
+        {
+          "name": "ESPN 2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
+        }
+      ],
+      "channel_count": 4
+    },
+    {
+      "id": 29883,
+      "time": "09:30:00",
+      "date": "2026-01-10",
+      "description": "Bundesliga: Union Berlin vs Mainz 05",
+      "country": "Alemania",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
+      "channels": [
+        {
+          "name": "Disney 11",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
         }
       ],
       "channel_count": 1
@@ -200,57 +292,25 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 10",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
         }
       ],
       "channel_count": 1
     },
     {
-      "id": 29883,
-      "time": "09:30:00",
-      "date": "2026-01-10",
-      "description": "Bundesliga: Union Berlin vs Mainz 05",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 29893,
+      "id": 29892,
       "time": "10:00:00",
       "date": "2026-01-10",
-      "description": "FA Cup: \nBurnley vs Millwall",
+      "description": "FA Cup: \nBoreham Wood vs Burton Albion",
       "country": "Inglaterra",
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 29894,
-      "time": "10:00:00",
-      "date": "2026-01-10",
-      "description": "FA Cup: \nDoncaster Rovers vs Southampton",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 12",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney12"
         }
       ],
       "channel_count": 1
@@ -272,17 +332,33 @@
       "channel_count": 1
     },
     {
-      "id": 29892,
+      "id": 29893,
       "time": "10:00:00",
       "date": "2026-01-10",
-      "description": "FA Cup: \nBoreham Wood vs Burton Albion",
+      "description": "FA Cup: \nBurnley vs Millwall",
       "country": "Inglaterra",
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 13",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTM=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney13"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29894,
+      "time": "10:00:00",
+      "date": "2026-01-10",
+      "description": "FA Cup: \nDoncaster Rovers vs Southampton",
+      "country": "Inglaterra",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
         }
       ],
       "channel_count": 1
