@@ -1,69 +1,7 @@
 {
-  "scraped_at": "2026-01-11T04:10:34.686513",
-  "total_events": 4,
+  "scraped_at": "2026-01-11T05:27:52.036232",
+  "total_events": 2,
   "events": [
-    {
-      "id": 29933,
-      "time": "20:00:00",
-      "date": "2026-01-10",
-      "description": "NFL: Packers vs Bears",
-      "country": "NFL",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nfl_c8afc9d155.png",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "Fox Sports MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzbXgK",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsportsmx\n"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 29914,
-      "time": "20:00:00",
-      "date": "2026-01-10",
-      "description": "Liga MX: \nLeón vs Cruz Azul",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "Univision USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dW5pdmlzaW9u",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=univision"
-        }
-      ],
-      "channel_count": 4
-    },
     {
       "id": 29930,
       "time": "21:30:00",
