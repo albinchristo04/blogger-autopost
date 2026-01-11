@@ -1,74 +1,7 @@
 {
-  "scraped_at": "2026-01-11T20:25:56.942378",
-  "total_events": 17,
+  "scraped_at": "2026-01-11T21:20:31.844516",
+  "total_events": 15,
   "events": [
-    {
-      "id": 29955,
-      "time": "13:00:00",
-      "date": "2026-01-11",
-      "description": "Liga MX: Pumas UNAM vs Querétaro",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 29968,
-      "time": "13:00:00",
-      "date": "2026-01-11",
-      "description": "NFL: Bills vs Jaguars",
-      "country": "NFL",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nfl_c8afc9d155.png",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
-        }
-      ],
-      "channel_count": 6
-    },
     {
       "id": 29969,
       "time": "14:00:00",
