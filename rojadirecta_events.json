@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T15:28:41.864307",
+  "scraped_at": "2026-01-12T16:30:19.126523",
   "total_events": 9,
   "events": [
     {
@@ -29,9 +29,14 @@
           "name": "ESPN 2 MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
         }
       ],
-      "channel_count": 4
+      "channel_count": 5
     },
     {
       "id": 29984,
