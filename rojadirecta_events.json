@@ -1,74 +1,7 @@
 {
-  "scraped_at": "2026-01-12T20:28:02.558147",
-  "total_events": 9,
+  "scraped_at": "2026-01-12T21:23:58.696054",
+  "total_events": 7,
   "events": [
-    {
-      "id": 29979,
-      "time": "12:30:00",
-      "date": "2026-01-12",
-      "description": "Serie A: Genoa vs Cagliari",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
-        },
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 5
-    },
-    {
-      "id": 29984,
-      "time": "12:30:00",
-      "date": "2026-01-12",
-      "description": "Pro League: Al Hilal vs Al Nassr",
-      "country": "Arabia Saudita",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/arabia_saudita_82c6f9c376_70d77b2bc2.png",
-      "channels": [
-        {
-          "name": "Fox Sports 2 USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzMl91c2E=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "FOX Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ],
-      "channel_count": 4
-    },
     {
       "id": 29983,
       "time": "14:00:00",
