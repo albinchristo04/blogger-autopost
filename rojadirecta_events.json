@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-12T14:28:13.420083",
-  "total_events": 8,
+  "scraped_at": "2026-01-12T15:28:41.864307",
+  "total_events": 9,
   "events": [
     {
       "id": 29979,
@@ -196,6 +196,22 @@
           "name": "DISNEY +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 29986,
+      "time": "19:00:00",
+      "date": "2026-01-12",
+      "description": "Serie Río de la Plata: Cerro Largo vs Atlético Tucumán",
+      "country": "Amistoso",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
         }
       ],
       "channel_count": 1
