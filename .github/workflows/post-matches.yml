@@ -1,41 +1,37 @@
 name: Auto Post Matches
-
 on:
   schedule:
-    - cron: "*/3 * * * *"   # Runs every 3 minutes
-  workflow_dispatch: {}
+    - cron: "30 10 * * *"   # Runs at 4:00 PM IST (10:30 AM UTC)
+  workflow_dispatch: {}    # Manual trigger option
 
 jobs:
   autopost:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 180  # 3 hours max
     steps:
-      - name: Check allowed time window (only run between 12:00–21:00 IST)
+      - name: Check allowed time window (4:00 PM - 7:00 PM IST)
         run: |
           # Get current UTC time
           UTC_HOUR=$(date -u +"%H")
           UTC_MINUTE=$(date -u +"%M")
-
           echo "Current UTC time: ${UTC_HOUR}:${UTC_MINUTE}"
-
+          
           # Convert UTC to IST (UTC + 5:30)
           UTC_TOTAL_MINUTES=$((10#$UTC_HOUR * 60 + 10#$UTC_MINUTE))
           IST_TOTAL_MINUTES=$((UTC_TOTAL_MINUTES + 330))
           IST_TOTAL_MINUTES=$((IST_TOTAL_MINUTES % 1440))
-
           IST_HOUR=$((IST_TOTAL_MINUTES / 60))
           IST_MINUTE=$((IST_TOTAL_MINUTES % 60))
-
           echo "Current IST time: ${IST_HOUR}:${IST_MINUTE}"
-
-          # Allowed window: 12:00 (inclusive) to 21:00 (exclusive)
-          if [ $IST_HOUR -lt 12 ] || [ $IST_HOUR -ge 21 ]; then
-            echo "⛔ Outside allowed window (12:00–21:00 IST). Exiting run."
+          
+          # Allowed window: 16:00 (4 PM) to 19:00 (7 PM) IST
+          if [ $IST_HOUR -lt 16 ] || [ $IST_HOUR -ge 19 ]; then
+            echo "⛔ Outside allowed window (4:00 PM - 7:00 PM IST). Exiting."
             echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
-            exit 0
+            exit 1
           fi
-
-          echo "✅ Inside allowed window (12:00–21:00 IST). Running script."
+          
+          echo "✅ Inside allowed window (4:00 PM - 7:00 PM IST)."
           echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
 
       - name: Checkout repository
@@ -49,10 +45,57 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run post-matches script
+      - name: Run post-matches script with retry logic
         env:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
           BLOG_ID: ${{ secrets.BLOG_ID }}
-        run: node post-matches.js
+        run: |
+          echo "🚀 Starting match posting process..."
+          
+          MAX_ATTEMPTS=10
+          ATTEMPT=1
+          WAIT_TIME=300  # 5 minutes between attempts
+          
+          while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
+            # Check if still within time window
+            UTC_HOUR=$(date -u +"%H")
+            UTC_MINUTE=$(date -u +"%M")
+            UTC_TOTAL_MINUTES=$((10#$UTC_HOUR * 60 + 10#$UTC_MINUTE))
+            IST_TOTAL_MINUTES=$((UTC_TOTAL_MINUTES + 330))
+            IST_TOTAL_MINUTES=$((IST_TOTAL_MINUTES % 1440))
+            IST_HOUR=$((IST_TOTAL_MINUTES / 60))
+            
+            if [ $IST_HOUR -ge 19 ]; then
+              echo "⏰ Reached 7:00 PM IST cutoff. Stopping."
+              exit 0
+            fi
+            
+            echo "📍 Attempt $ATTEMPT of $MAX_ATTEMPTS (IST: ${IST_HOUR}:$((IST_TOTAL_MINUTES % 60)))"
+            
+            # Run the script and capture exit code
+            node post-matches.js
+            EXIT_CODE=$?
+            
+            if [ $EXIT_CODE -eq 0 ]; then
+              echo "✅ All matches posted successfully!"
+              exit 0
+            elif [ $EXIT_CODE -eq 10 ]; then
+              echo "✅ No new matches to post. All done!"
+              exit 0
+            else
+              echo "⚠️  Script exited with code $EXIT_CODE"
+            fi
+            
+            # If not the last attempt and still in time window, wait
+            if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
+              echo "⏳ Waiting ${WAIT_TIME} seconds before next attempt..."
+              sleep $WAIT_TIME
+            fi
+            
+            ATTEMPT=$((ATTEMPT + 1))
+          done
+          
+          echo "⚠️  Reached maximum attempts. Some matches may not be posted."
+          exit 0
