@@ -1,4 +1,5 @@
 name: Auto Post Matches
+
 on:
   schedule:
     - cron: "*/3 * * * *"   # Runs every 3 minutes
@@ -7,40 +8,34 @@ on:
 jobs:
   autopost:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check allowed time window (only run between 12:00–15:00 IST)
+      - name: Check allowed time window (only run between 12:00–21:00 IST)
         run: |
           # Get current UTC time
           UTC_HOUR=$(date -u +"%H")
           UTC_MINUTE=$(date -u +"%M")
-          
+
           echo "Current UTC time: ${UTC_HOUR}:${UTC_MINUTE}"
-          
+
           # Convert UTC to IST (UTC + 5:30)
-          # Calculate total minutes since midnight in UTC
           UTC_TOTAL_MINUTES=$((10#$UTC_HOUR * 60 + 10#$UTC_MINUTE))
-          
-          # Add 5 hours 30 minutes (330 minutes) for IST
           IST_TOTAL_MINUTES=$((UTC_TOTAL_MINUTES + 330))
-          
-          # Handle day overflow (if IST goes past midnight)
           IST_TOTAL_MINUTES=$((IST_TOTAL_MINUTES % 1440))
-          
-          # Calculate IST hour and minute
+
           IST_HOUR=$((IST_TOTAL_MINUTES / 60))
           IST_MINUTE=$((IST_TOTAL_MINUTES % 60))
-          
+
           echo "Current IST time: ${IST_HOUR}:${IST_MINUTE}"
-          
-          # Check if time is between 12:00 and 15:00 IST (12 PM to 3 PM)
-          # Window: 12:00 (inclusive) to 15:00 (exclusive)
-          if [ $IST_HOUR -lt 12 ] || [ $IST_HOUR -ge 15 ]; then
-            echo "⛔ Outside allowed window (12:00–15:00 IST). Exiting run."
+
+          # Allowed window: 12:00 (inclusive) to 21:00 (exclusive)
+          if [ $IST_HOUR -lt 12 ] || [ $IST_HOUR -ge 21 ]; then
+            echo "⛔ Outside allowed window (12:00–21:00 IST). Exiting run."
             echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
             exit 0
           fi
-          
-          echo "✅ Inside allowed window (12:00–15:00 IST). Running script."
+
+          echo "✅ Inside allowed window (12:00–21:00 IST). Running script."
           echo "   Current IST: ${IST_HOUR}:${IST_MINUTE}"
 
       - name: Checkout repository
