@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <script async='async' crossorigin='anonymous' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'></script>
+    <script>
+      window.googletag = window.googletag || {cmd: []};
+      googletag.cmd.push(function() {
+        // Header 728x90
+        googletag.defineSlot('/23250651813/header_728x90', [728, 90], 'div-gpt-ad-1768291757614-0').addService(googletag.pubads());
+        
+        // Banner (Multi-size) - Used in Sidebar/Footer
+        googletag.defineSlot('/23250651813/Banner', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-1768300628608-0').addService(googletag.pubads());
+        
+        // Out of Page
+        googletag.defineOutOfPageSlot('/23250651813/32050', 'div-gpt-ad-1768300719825-0').addService(googletag.pubads());
+        
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+      });
+    </script>
+
+    <b:skin><![CDATA[
+/* 
+-----------------------------------------------
+Blogger Theme: Matchable
+Version: 1.1
+Author: Broken DEEJAY
+-----------------------------------------------
+*/
+
+/* Variables */
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --accent-color: #d32f2f;
+    --accent-hover: #b71c1c;
+    --border-color: #333;
+    --font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Reset & Base */
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Layout */
+.site-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.site-header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-title h1 {
+    margin: 0;
+}
+.site-title a {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Blog Posts (Homepage Grid) */
+.index .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.item .blog-posts, .static_page .blog-posts {
+    display: block;
+}
+
+/* Post Card (Homepage) */
+.post-outer {
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.index .post-outer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Hide full content on homepage and show only header card styles */
+.index .match-layout,
+.index .match-player-card,
+.index .match-body-card,
+.index .match-sidebar,
+.index .stream-buttons,
+.index script {
+    display: none !important;
+}
+
+/* Adjust header card for homepage grid */
+.index .match-header-card {
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background: none; /* Remove gradient on grid items if desired, or keep it */
+}
+.index .match-featured-image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.index .match-title {
+    font-size: 18px;
+}
+.index .match-meta {
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* Match Page Styles (from post-matches.js) */
+.match-page {
+    width: 100%;
+}
+
+.match-header-card {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), #2c2c2c;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.match-featured-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+.match-featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.match-header-text {
+    flex: 1;
+}
+
+.match-league {
+    display: inline-block;
+    background: var(--accent-color);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.match-title {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.match-meta {
+    font-size: 14px;
+    color: var(--text-secondary);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.match-tag {
+    background: #333;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+/* Match Layout (Grid for Main + Sidebar) */
+.match-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .match-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Player Card */
+.match-player-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.match-player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.match-badge {
+    background: #4caf50;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.match-player-frame {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.match-player-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.match-player-empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stream Buttons */
+.stream-buttons {
+    margin-bottom: 15px;
+}
+.stream-btn {
+    transition: all 0.2s;
+}
+.stream-btn:hover {
+    opacity: 0.9;
+}
+
+/* Match Info Body */
+.match-body-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.match-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.match-info-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+}
+.match-info-list li:last-child {
+    border-bottom: none;
+}
+
+.match-note {
+    background: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-top: 20px;
+}
+
+/* Sidebar */
+.match-sidebar .widget {
+    margin-bottom: 30px;
+}
+.match-ad-placeholder {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+.site-footer {
+    border-top: 1px solid var(--border-color);
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: 50px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .match-header-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .match-meta {
+        justify-content: center;
+    }
+    .match-title {
+        font-size: 22px;
+    }
+}
+    ]]></b:skin>
+</head>
+<body expr:class='data:blog.pageType'>
+    <div class='site-wrapper'>
+        
+        <header class='site-header'>
+            <div class='site-title'>
+                <b:section id='header' maxwidgets='1' showaddelement='no'>
+                    <b:widget id='Header1' locked='true' title='My Blog' type='Header' version='2'>
+                        <b:widget-settings>
+                            <b:widget-setting name='displayUrl'/>
+                            <b:widget-setting name='displayHeight'>0</b:widget-setting>
+                            <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+                            <b:widget-setting name='useImage'>false</b:widget-setting>
+                            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+                            <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+                            <b:widget-setting name='displayWidth'>0</b:widget-setting>
+                        </b:widget-settings>
+                        <b:includable id='main'>
+                            <h1><a expr:href='data:blog.homepageUrl'><data:title/></a></h1>
+                        </b:includable>
+                    </b:widget>
+                </b:section>
+            </div>
+            <!-- Header Ad -->
+            <div id='div-gpt-ad-1768291757614-0' style='min-width: 728px; min-height: 90px;'>
+              <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1768291757614-0'); });
+              </script>
+            </div>
+        </header>
+
+        <div class='content-wrapper'>
+            <b:section class='main' id='main' showaddelement='yes'>
+                <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+                    <b:widget-settings>
+                        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+                        <b:widget-setting name='style.layout'>layout:default</b:widget-setting>
+                        <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+                        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+                        <b:widget-setting name='style.backgroundcolor'>#ffffff</b:widget-setting>
+                        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                        <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                        <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                        <b:widget-setting name='showAuthor'>false</b:widget-setting>
+                        <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                        <b:widget-setting name='style.fontsize'>12</b:widget-setting>
+                        <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                        <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+
+                        <b:widget-setting name='showLabels'>true</b:widget-setting>
+                        <b:widget-setting name='showReactions'>false</b:widget-setting>
+                        <b:widget-setting name='showEmailPost'>false</b:widget-setting>
+                        <b:widget-setting name='showMobileShare'>false</b:widget-setting>
+                        <b:widget-setting name='showDummy'>false</b:widget-setting>
+                        <b:widget-setting name='showImage'>true</b:widget-setting>
+                        <b:widget-setting name='showLocation'>false</b:widget-setting>
+                        <b:widget-setting name='postLabelsLabel'>Labels</b:widget-setting>
+                    </b:widget-settings>
+                    
+                    <b:includable id='main' var='top'>
+                        <div class='blog-posts'>
+                            <b:loop values='data:posts' var='post'>
+                                <b:include data='post' name='post'/>
+                            </b:loop>
+                        </div>
+                        <b:include name='nextprev'/>
+                    </b:includable>
+
+                    <b:includable id='post' var='post'>
+                        <div class='post-outer'>
+                            <div class='post-body entry-content'>
+                                <b:if cond='data:view.isMultipleItems'>
+                                    <!-- Homepage View: Link to post -->
+                                    <a expr:href='data:post.url' style='display:block; text-decoration:none; color:inherit;'>
+                                        <data:post.body/>
+                                    </a>
+                                <b:else/>
+                                    <!-- Single Post View -->
+                                    <data:post.body/>
+                                </b:if>
+                            </div>
+                        </div>
+                    </b:includable>
+
+                    <b:includable id='nextprev'>
+                        <div class='blog-pager' id='blog-pager'>
+                            <b:if cond='data:newerPageUrl'>
+                                <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' title='Newer Posts'>Newer Posts</a>
+                            </b:if>
+                            <b:if cond='data:olderPageUrl'>
+                                <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' title='Older Posts'>Older Posts</a>
+                            </b:if>
+                        </div>
+                    </b:includable>
+                </b:widget>
+            </b:section>
+        </div>
+
+        <footer class='site-footer'>
+            <b:section id='footer' showaddelement='yes'>
+                <b:widget id='Text1' locked='false' title='About' type='Text' version='2'>
+                    <b:widget-settings>
+                        <b:widget-setting name='content'>Matchable Theme - Best Sports Streaming</b:widget-setting>
+                    </b:widget-settings>
+                    <b:includable id='main'>
+                        <div class='widget-content'>
+                            <data:content/>
+                        </div>
+                    </b:includable>
+                </b:widget>
+            </b:section>
+            <p>&#169; <span id='year'></span> <data:blog.title/>. All rights reserved.</p>
+            <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+        </footer>
+
+        <!-- Out of Page Ad -->
+        <div id='div-gpt-ad-1768300719825-0'>
+          <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1768300719825-0'); });
+          </script>
+        </div>
+
+    </div>
+</body>
+</html>

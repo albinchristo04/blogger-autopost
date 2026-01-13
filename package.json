@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "post-matches.js",
   "type": "module",
- "scripts": {
-  "post-matches": "node post-matches.js",
-  "cleanup-finished": "node cleanup-finished.js"
-}
+  "scripts": {
+    "post-matches": "node post-matches.js",
+    "cleanup-finished": "node cleanup-finished.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
 }

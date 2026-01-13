@@ -5,6 +5,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import 'dotenv/config';
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,65 +44,70 @@ function escapeHtml(s) {
 
 // ---- AdSense blocks ----
 
-// Loader script (include once per post)
+// ---- GPT Ad Blocks ----
+
+// Loader script (include once per post - though theme has it, this ensures it works if theme changes)
+// We also define the specific slots for THIS post here to ensure they exist.
+// Note: We use unique IDs for each post's ads if possible, but since this is a static page view,
+// standard IDs are fine as long as they don't conflict on the SAME page.
+// However, to be safe and allow multiple ads of same type, we define them here.
+
 const ADS_BOOTSTRAP = `
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7025462814384100" crossorigin="anonymous"></script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    // Define slots for the post content
+    googletag.defineSlot('/23250651813/header_728x90', [728, 90], 'div-gpt-ad-post-header').addService(googletag.pubads());
+    googletag.defineSlot('/23250651813/Banner', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-post-player').addService(googletag.pubads());
+    googletag.defineSlot('/23250651813/Banner', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-post-body').addService(googletag.pubads());
+    googletag.defineSlot('/23250651813/Banner', [[300, 250], [250, 250], [336, 280]], 'div-gpt-ad-post-bottom').addService(googletag.pubads());
+    
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
 `;
 
-// newads1 – hero / top area
+// Header Ad (728x90)
 const AD_TOP = `
-<!-- newads1 -->
-<ins class="adsbygoogle"
-     style="display:block;margin:1rem 0"
-     data-ad-client="ca-pub-7025462814384100"
-     data-ad-slot="9326880581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- /23250651813/header_728x90 -->
+<div id='div-gpt-ad-post-header' style='min-width: 728px; min-height: 90px; margin: 1rem auto; text-align: center;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-post-header'); });
+  </script>
+</div>
 `;
 
-// evaulthubsports_page_body_Blog1_1x1_as – body / under match info
+// Body Ad (Banner)
 const AD_BODY = `
-<!-- evaulthubsports_page_body_Blog1_1x1_as -->
-<ins class="adsbygoogle"
-     style="display:block;margin:1rem 0"
-     data-ad-client="ca-pub-7025462814384100"
-     data-ad-slot="5285609513"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- /23250651813/Banner -->
+<div id='div-gpt-ad-post-body' style='min-width: 250px; min-height: 250px; margin: 1rem auto; text-align: center;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-post-body'); });
+  </script>
+</div>
 `;
 
-// bxads53 – near player
+// Player Ad (Banner)
 const AD_PLAYER = `
-<!-- bxads53 -->
-<ins class="adsbygoogle"
-     style="display:block;margin:0.75rem 0"
-     data-ad-client="ca-pub-7025462814384100"
-     data-ad-slot="2965148688"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- /23250651813/Banner -->
+<div id='div-gpt-ad-post-player' style='min-width: 250px; min-height: 250px; margin: 0.75rem auto; text-align: center;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-post-player'); });
+  </script>
+</div>
 `;
 
-// bxads3 – sidebar / bottom
+// Bottom Ad (Banner)
 const AD_BOTTOM = `
-<!-- bxads3 -->
-<ins class="adsbygoogle"
-     style="display:block;margin:1rem 0"
-     data-ad-client="ca-pub-7025462814384100"
-     data-ad-slot="3088329811"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<!-- /23250651813/Banner -->
+<div id='div-gpt-ad-post-bottom' style='min-width: 250px; min-height: 250px; margin: 1rem auto; text-align: center;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-post-bottom'); });
+  </script>
+</div>
 `;
 
 // ---- OAuth token handling ----
