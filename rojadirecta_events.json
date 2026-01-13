@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-13T16:35:21.065461",
-  "total_events": 20,
+  "scraped_at": "2026-01-13T17:28:35.742394",
+  "total_events": 23,
   "events": [
     {
       "id": 30006,
@@ -361,6 +361,22 @@
       "channel_count": 4
     },
     {
+      "id": 30008,
+      "time": "17:00:00",
+      "date": "2026-01-13",
+      "description": "Campeonato Paulista A1: \nNovorizontino vs Guarani",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 29998,
       "time": "18:00:00",
       "date": "2026-01-13",
@@ -403,13 +419,18 @@
       "channel_count": 1
     },
     {
-      "id": 29997,
+      "id": 30010,
       "time": "18:45:00",
       "date": "2026-01-13",
       "description": "Serie Río de la Plata: \nEverton vs Independiente",
       "country": "Conmebol",
       "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
       "channels": [
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
+        },
         {
           "name": "ESPN Premium",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
@@ -426,7 +447,39 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
+    },
+    {
+      "id": 30009,
+      "time": "19:00:00",
+      "date": "2026-01-13",
+      "description": "Campeonato Paulista A1: Capivariano vs Portuguesa",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30011,
+      "time": "19:00:00",
+      "date": "2026-01-13",
+      "description": "Serie Colombia: América de Cali vs Once Caldas",
+      "country": "Colombia",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 29999,
