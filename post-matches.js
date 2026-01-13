@@ -21,8 +21,8 @@ const {
 } = process.env;
 
 // ---- Config ----
-const MAX_NEW_POSTS_PER_RUN = 3;      // safe with Blogger rate limits
-const DELAY_BETWEEN_POSTS_MS = 2000;  // 2 seconds between posts
+const MAX_NEW_POSTS_PER_RUN = 5;      // Post more per run since we run less frequently
+const DELAY_BETWEEN_POSTS_MS = 3000;  // 3 seconds between posts for safety
 
 if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN || !BLOG_ID) {
   console.error('[FATAL] Missing one of CLIENT_ID / CLIENT_SECRET / REFRESH_TOKEN / BLOG_ID env vars');
@@ -420,7 +420,8 @@ function slugify(text) {
 }
 
 async function main() {
-  console.log('Starting post-matches run...');
+  console.log('🚀 Starting post-matches run...');
+  console.log(`⏰ Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })} IST`);
 
   const accessToken = await getAccessToken();
   console.log('[OK] Got access token');
@@ -480,31 +481,51 @@ async function main() {
 
   const upcoming = filterUpcomingTodayTomorrow(groupedMatches);
 
-  console.log(`[INFO] Loaded ${events.length} events, ${uniqueEvents.length} unique.`);
-  console.log(`[INFO] Upcoming matches to process: ${upcoming.length}`);
+  console.log(`📊 Stats:`);
+  console.log(`   Total events: ${events.length}`);
+  console.log(`   Unique events: ${uniqueEvents.length}`);
+  console.log(`   Upcoming matches (today + tomorrow): ${upcoming.length}`);
+
+  if (upcoming.length === 0) {
+    console.log('✅ No upcoming matches found. All done!');
+    process.exit(10); // Signal: No matches to post
+  }
 
   // Dedupe with Blogger labels
   const existingMatchIds = await fetchExistingMatchIds(accessToken);
-  console.log(`[INFO] Existing match IDs in Blogger (via label match:<id>): ${existingMatchIds.size}`);
+  console.log(`   Existing posts in Blogger: ${existingMatchIds.size}`);
+
+  // Filter out already posted
+  const newMatches = upcoming.filter(s => s.sid && !existingMatchIds.has(s.sid));
+  
+  console.log(`   New matches to post: ${newMatches.length}`);
+
+  if (newMatches.length === 0) {
+    console.log('✅ All matches already posted. Nothing new!');
+    process.exit(10); // Signal: No new matches
+  }
 
   let createdCount = 0;
+  let skippedCount = 0;
+  let failedCount = 0;
 
-  for (const s of upcoming) {
+  for (const s of newMatches) {
     if (createdCount >= MAX_NEW_POSTS_PER_RUN) {
-      console.log(`[INFO] Reached MAX_NEW_POSTS_PER_RUN = ${MAX_NEW_POSTS_PER_RUN}, stopping.`);
+      console.log(`ℹ️  Reached MAX_NEW_POSTS_PER_RUN = ${MAX_NEW_POSTS_PER_RUN}`);
+      console.log(`   ${newMatches.length - createdCount - skippedCount - failedCount} matches remaining for next run`);
       break;
     }
 
     const sid = s.sid;
-    if (!sid) continue;
-
-    if (existingMatchIds.has(sid)) {
-      console.log(`[SKIP] Match ${sid} already has a post.`);
+    if (!sid) {
+      skippedCount++;
       continue;
     }
 
     const title = s.name || s.title || sid;
-    console.log(`[POST] Creating post for match ${sid} (${title}) - ${s.streams.length} streams`);
+    console.log(`\n📝 [${createdCount + 1}/${Math.min(MAX_NEW_POSTS_PER_RUN, newMatches.length)}] Posting: ${title}`);
+    console.log(`   Match ID: ${sid}`);
+    console.log(`   Streams: ${s.streams.length}`);
 
     const content = buildPostContent(s);
 
@@ -518,40 +539,113 @@ async function main() {
       ]
     };
 
-    const postRes = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(postBody)
-    });
+    try {
+      const postRes = await fetch(`https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/`, {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(postBody)// Add this at the end of your post-matches.js file
 
-    if (!postRes.ok) {
-      const text = await postRes.text();
-      console.error('[ERROR] Failed to create post for', sid, postRes.status, text);
+// After successfully posting all matches, exit with code 10 to signal "no more matches"
+// After posting some matches but more remain, exit with code 0 to continue
+// On error, exit with appropriate error code
 
-      if (postRes.status === 429) {
-        console.error('[RATE LIMIT] Hit Blogger rateLimitExceeded (429). Stopping this run.');
-        break;
-      }
+// Add this at the end of your post-matches.js file
 
-      continue;
+// After successfully posting all matches, exit with code 10 to signal "no more matches"
+// After posting some matches but more remain, exit with code 0 to continue
+// On error, exit with appropriate error code
+
+// Example implementation:
+async function main() {
+  try {
+    console.log('🔍 Fetching matches from source...');
+    const matches = await fetchMatchesFromSource();
+    
+    if (!matches || matches.length === 0) {
+      console.log('✅ No new matches found. All up to date!');
+      process.exit(10); // Signal: No more matches to post
     }
-
-    const postJson = await postRes.json();
-    console.log('[OK] Created post:', sid, postJson.id, title);
-    createdCount++;
-
-    // delay between posts to be nice to API
-    await sleep(DELAY_BETWEEN_POSTS_MS);
+    
+    console.log(`📋 Found ${matches.length} matches to process`);
+    
+    // Get existing posts to avoid duplicates
+    const existingPosts = await getExistingBlogPosts();
+    const existingTitles = new Set(existingPosts.map(post => post.title));
+    
+    // Filter out already posted matches
+    const newMatches = matches.filter(match => !existingTitles.has(match.title));
+    
+    if (newMatches.length === 0) {
+      console.log('✅ All matches already posted. Nothing new!');
+      process.exit(10); // Signal: No more matches to post
+    }
+    
+    console.log(`📝 Posting ${newMatches.length} new matches...`);
+    
+    let successCount = 0;
+    let failCount = 0;
+    
+    // Post matches with rate limiting
+    for (let i = 0; i < newMatches.length; i++) {
+      const match = newMatches[i];
+      
+      try {
+        await postMatchToBlogger(match);
+        successCount++;
+        console.log(`✅ Posted: ${match.title} (${i + 1}/${newMatches.length})`);
+        
+        // Rate limiting: wait 2 seconds between posts
+        if (i < newMatches.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 2000));
+        }
+      } catch (error) {
+        failCount++;
+        console.error(`❌ Failed to post: ${match.title}`, error.message);
+        
+        // If rate limited, stop and let workflow retry later
+        if (error.message.includes('rate') || error.message.includes('quota')) {
+          console.log('⚠️  Rate limited. Will retry later.');
+          process.exit(1); // Signal: Error, retry needed
+        }
+      }
+    }
+    
+    console.log(`\n📊 Summary: ${successCount} posted, ${failCount} failed`);
+    
+    // Check if there might be more matches to fetch
+    if (matches.length >= 50) { // Adjust based on your API's page size
+      console.log('📍 More matches may be available. Will check again.');
+      process.exit(0); // Signal: Success, but check again
+    }
+    
+    console.log('✅ All available matches processed!');
+    process.exit(10); // Signal: All done
+    
+  } catch (error) {
+    console.error('❌ Fatal error:', error);
+    process.exit(1); // Signal: Error occurred
   }
-
-  console.log(`[DONE] Created ${createdCount} new posts this run.`);
 }
 
-// Run
-main().catch(err => {
-  console.error('[FATAL] Fatal error in post-matches:', err);
-  process.exit(1);
-});
+// Run the script
+main();
+
+// Helper function examples (adjust to your actual implementation):
+
+async function fetchMatchesFromSource() {
+  // Your code to fetch matches from the source
+  // Return array of match objects
+}
+
+async function getExistingBlogPosts() {
+  // Your code to get existing blog posts
+  // Return array of existing posts
+}
+
+async function postMatchToBlogger(match) {
+  // Your code to post a match to Blogger
+  // Throw error if posting fails
+}
