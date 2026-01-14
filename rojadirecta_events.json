@@ -1,39 +1,7 @@
 {
-  "scraped_at": "2026-01-14T21:24:45.028527",
-  "total_events": 16,
+  "scraped_at": "2026-01-14T22:25:29.782538",
+  "total_events": 14,
   "events": [
-    {
-      "id": 30020,
-      "time": "13:45:00",
-      "date": "2026-01-14",
-      "description": "Copa de Portugal: \nFafe vs Sporting Braga",
-      "country": "Portugal",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/portugal_914accbdd5_06fa714d5c.png",
-      "channels": [
-        {
-          "name": "beIN Sports XTRA Ñ ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YmVpbnNwb3J0X3h0cmFfZXNwYW5vbA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30029,
-      "time": "14:00:00",
-      "date": "2026-01-14",
-      "description": "Copa KNVB: Go Ahead Eagles vs Heracles",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30018,
       "time": "14:30:00",
