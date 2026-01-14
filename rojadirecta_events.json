@@ -1,75 +1,7 @@
 {
-  "scraped_at": "2026-01-14T20:28:22.901464",
-  "total_events": 19,
+  "scraped_at": "2026-01-14T21:24:45.028527",
+  "total_events": 16,
   "events": [
-    {
-      "id": 30016,
-      "time": "12:30:00",
-      "date": "2026-01-14",
-      "description": "Bundesliga: Wolfsburg vs St. Pauli",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30028,
-      "time": "12:30:00",
-      "date": "2026-01-14",
-      "description": "Copa KNVB: Den Bosch vs PSV\n",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2_nl"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30014,
-      "time": "12:30:00",
-      "date": "2026-01-14",
-      "description": "Serie A: \nNapoli vs Parma",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
-        },
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 5
-    },
     {
       "id": 30020,
       "time": "13:45:00",
