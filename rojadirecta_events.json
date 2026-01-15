@@ -1,28 +1,7 @@
 {
-  "scraped_at": "2026-01-15T03:43:13.465941",
-  "total_events": 4,
+  "scraped_at": "2026-01-15T04:42:42.844430",
+  "total_events": 3,
   "events": [
-    {
-      "id": 30044,
-      "time": "20:00:00",
-      "date": "2026-01-14",
-      "description": "Liga MX: América vs Atlético San Luis\n",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Canal 5 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Y2FuYWw1",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=canal5"
-        },
-        {
-          "name": "TUDN USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30045,
       "time": "21:30:00",
