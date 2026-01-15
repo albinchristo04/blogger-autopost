@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-15T15:28:54.027039",
+  "scraped_at": "2026-01-15T17:34:40.595827",
   "total_events": 12,
   "events": [
     {
@@ -26,6 +26,11 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
+        },
+        {
           "name": "FOX Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
@@ -41,7 +46,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 6
+      "channel_count": 7
     },
     {
       "id": 30058,
@@ -60,22 +65,6 @@
       "channel_count": 1
     },
     {
-      "id": 30050,
-      "time": "14:30:00",
-      "date": "2026-01-15",
-      "description": "Bundesliga: \nAugsburg vs Union Berlin",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30056,
       "time": "14:30:00",
       "date": "2026-01-15",
@@ -87,6 +76,22 @@
           "name": "DISNEY +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30050,
+      "time": "14:30:00",
+      "date": "2026-01-15",
+      "description": "Bundesliga: \nAugsburg vs Union Berlin",
+      "country": "Alemania",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
+      "channels": [
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
         }
       ],
       "channel_count": 1
@@ -118,30 +123,14 @@
           "name": "ESPN 3 MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30051,
-      "time": "15:00:00",
-      "date": "2026-01-15",
-      "description": "Copa del Rey: Burgos vs Valencia",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "America TV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
         },
         {
-          "name": "America Television",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
-      "channel_count": 2
+      "channel_count": 5
     },
     {
       "id": 30052,
@@ -221,6 +210,22 @@
       "channel_count": 3
     },
     {
+      "id": 30051,
+      "time": "15:00:00",
+      "date": "2026-01-15",
+      "description": "Copa del Rey: Burgos vs Valencia",
+      "country": "España",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
+      "channels": [
+        {
+          "name": "ESPN Plus 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus3"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30053,
       "time": "16:00:00",
       "date": "2026-01-15",
@@ -244,6 +249,11 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
         },
         {
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
+        },
+        {
           "name": "ESPN Premium",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
@@ -259,15 +269,15 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         }
       ],
-      "channel_count": 6
+      "channel_count": 7
     },
     {
       "id": 30054,
       "time": "18:45:00",
       "date": "2026-01-15",
       "description": " Serie Río de la Plata: Olimpia vs Colo-Colo",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
+      "country": "Conmebol",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
       "channels": [
         {
           "name": "ESPN Premium",
@@ -275,6 +285,11 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         },
         {
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN Premium┃OP2",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
@@ -285,7 +300,7 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30055,
@@ -296,12 +311,27 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Win Sports +",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsportsplus"
+        },
+        {
+          "name": "fanatiz 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZmFuYXRpejE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=fanatiz1"
         }
       ],
-      "channel_count": 1
+      "channel_count": 4
     },
     {
       "id": 30057,
