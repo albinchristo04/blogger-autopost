@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-15T21:24:42.698342",
-  "total_events": 18,
+  "scraped_at": "2026-01-15T22:24:58.689056",
+  "total_events": 17,
   "events": [
-    {
-      "id": 30060,
-      "time": "14:00:00",
-      "date": "2026-01-15",
-      "description": "NBA: Grizzlies vs Magic",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "NBA 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30050,
       "time": "14:30:00",
