@@ -5,7 +5,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import 'dotenv/config';
+
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -419,8 +419,8 @@ function slugify(text) {
     .replace(/-+$/, '');
 }
 
-async function main() {
-  console.log('Starting post-matches run...');
+async function runBatch() {
+  console.log('Starting batch run...');
 
   const accessToken = await getAccessToken();
   console.log('[OK] Got access token');
@@ -430,7 +430,7 @@ async function main() {
 
   if (!fs.existsSync(MATCHES_FILE)) {
     console.error('[FATAL] rojadirecta_events.json not found. Run libre.py first.');
-    process.exit(1);
+    throw new Error('rojadirecta_events.json not found');
   }
 
   const rawData = JSON.parse(fs.readFileSync(MATCHES_FILE, 'utf8'));
@@ -487,22 +487,23 @@ async function main() {
   const existingMatchIds = await fetchExistingMatchIds(accessToken);
   console.log(`[INFO] Existing match IDs in Blogger (via label match:<id>): ${existingMatchIds.size}`);
 
+  // Identify unposted matches
+  const unposted = upcoming.filter(s => s.sid && !existingMatchIds.has(s.sid));
+  console.log(`[INFO] Unposted matches: ${unposted.length}`);
+
+  if (unposted.length === 0) {
+    return { posted: 0, remaining: 0 };
+  }
+
   let createdCount = 0;
 
-  for (const s of upcoming) {
+  for (const s of unposted) {
     if (createdCount >= MAX_NEW_POSTS_PER_RUN) {
-      console.log(`[INFO] Reached MAX_NEW_POSTS_PER_RUN = ${MAX_NEW_POSTS_PER_RUN}, stopping.`);
+      console.log(`[INFO] Reached MAX_NEW_POSTS_PER_RUN = ${MAX_NEW_POSTS_PER_RUN}, stopping batch.`);
       break;
     }
 
     const sid = s.sid;
-    if (!sid) continue;
-
-    if (existingMatchIds.has(sid)) {
-      console.log(`[SKIP] Match ${sid} already has a post.`);
-      continue;
-    }
-
     const title = s.name || s.title || sid;
     console.log(`[POST] Creating post for match ${sid} (${title}) - ${s.streams.length} streams`);
 
@@ -548,10 +549,49 @@ async function main() {
   }
 
   console.log(`[DONE] Created ${createdCount} new posts this run.`);
+  return { posted: createdCount, remaining: unposted.length - createdCount };
+}
+
+function getMsUntilNext4PM() {
+  const now = new Date();
+  const target = new Date(now);
+  target.setHours(16, 0, 0, 0); // 4 PM
+
+  if (target <= now) {
+    // If 4 PM has passed today, target tomorrow
+    target.setDate(target.getDate() + 1);
+  }
+  return target.getTime() - now.getTime();
+}
+
+async function startScheduler() {
+  console.log('[SCHEDULER] Starting persistent scheduler...');
+  while (true) {
+    try {
+      const { posted, remaining } = await runBatch();
+
+      if (remaining > 0) {
+        console.log(`[SCHEDULER] ${remaining} matches remaining. Running again in 5 minutes.`);
+        await sleep(5 * 60 * 1000);
+      } else {
+        // All done (or none found)
+        // Wait until next 4 PM
+        const ms = getMsUntilNext4PM();
+        const hours = (ms / (1000 * 60 * 60)).toFixed(2);
+        const nextRun = new Date(Date.now() + ms).toLocaleString();
+        console.log(`[SCHEDULER] All matches posted. Waiting ${hours} hours until next 4 PM (${nextRun}).`);
+        await sleep(ms);
+      }
+    } catch (err) {
+      console.error('[SCHEDULER] Error:', err);
+      console.log('[SCHEDULER] Retrying in 5 minutes...');
+      await sleep(5 * 60 * 1000);
+    }
+  }
 }
 
 // Run
-main().catch(err => {
-  console.error('[FATAL] Fatal error in post-matches:', err);
+startScheduler().catch(err => {
+  console.error('[FATAL] Fatal error in scheduler:', err);
   process.exit(1);
 });
