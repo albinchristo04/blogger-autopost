@@ -1,144 +1,7 @@
 {
-  "scraped_at": "2026-01-14T23:20:00.947969",
-  "total_events": 17,
+  "scraped_at": "2026-01-15T01:54:32.793397",
+  "total_events": 10,
   "events": [
-    {
-      "id": 30021,
-      "time": "15:45:00",
-      "date": "2026-01-14",
-      "description": "Copa de Portugal: Porto vs Benfica",
-      "country": "Portugal",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/portugal_914accbdd5_06fa714d5c.png",
-      "channels": [
-        {
-          "name": "Fox Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzCg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "beIN Sports XTRA Ñ ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YmVpbnNwb3J0X3h0cmFfZXNwYW5vbA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30031,
-      "time": "16:00:00",
-      "date": "2026-01-14",
-      "description": "Serie Río de la Plata: Unión Santa Fe vs Alianza Lima\n",
-      "country": "Amistoso",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "Disney 08",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30036,
-      "time": "17:00:00",
-      "date": "2026-01-14",
-      "description": "Campeonato Paulista A1: Primavera SP vs Mirassol\n",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "MAX 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30032,
-      "time": "17:00:00",
-      "date": "2026-01-14",
-      "description": "Partido Amistoso Internacional: Boca Juniors vs Millonarios\n",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "TyC Sports Internacional",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR5Y2ludGVybmFjaW9uYWw=",
-          "decoded_url": "https://la14hd.com/vivo/canales.php?stream=tycinternacional"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30035,
-      "time": "17:00:00",
-      "date": "2026-01-14",
-      "description": "Campeonato Carioca: Fluminense vs Madureira\n",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere 2 BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUy",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere2"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30037,
-      "time": "17:30:00",
-      "date": "2026-01-14",
-      "description": "Campeonato Paulista A1: Palmeiras vs Santos\n",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "MAX 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30038,
-      "time": "17:30:00",
-      "date": "2026-01-14",
-      "description": "Campeonato Mineiro: North Esporte Clube vs Atlético Mineiro\n",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30039,
       "time": "18:00:00",
@@ -274,14 +137,14 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
       "channels": [
         {
-          "name": "TUDN USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
-        },
-        {
           "name": "Canal 5 MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Y2FuYWw1",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
         }
       ],
       "channel_count": 2
