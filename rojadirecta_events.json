@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-15T18:40:20.307237",
-  "total_events": 12,
+  "scraped_at": "2026-01-15T19:27:15.196965",
+  "total_events": 20,
   "events": [
     {
       "id": 30048,
@@ -65,17 +65,17 @@
       "channel_count": 1
     },
     {
-      "id": 30056,
-      "time": "14:30:00",
+      "id": 30060,
+      "time": "14:00:00",
       "date": "2026-01-15",
-      "description": "Copa Africana de Naciones: \nEvening Show vs African Cup Of Nations",
-      "country": "Copa Africana",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/copa_africa_f97d27e653.jpg",
+      "description": "NBA: Grizzlies vs Magic",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "NBA 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
         }
       ],
       "channel_count": 1
@@ -272,6 +272,70 @@
       "channel_count": 7
     },
     {
+      "id": 30063,
+      "time": "17:00:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Paulista A1: Botafogo SP vs Noroeste",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30064,
+      "time": "17:00:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Gaúcho: Monsoon vs Internacional",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere 3 BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere3"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30066,
+      "time": "17:30:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Paulista A1: RB Bragantino vs Corinthians",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30065,
+      "time": "17:30:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Carioca: Portuguesa RJ vs Botafogo",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30054,
       "time": "18:45:00",
       "date": "2026-01-15",
@@ -301,6 +365,22 @@
         }
       ],
       "channel_count": 4
+    },
+    {
+      "id": 30067,
+      "time": "19:30:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Carioca: Vasco da Gama vs Maricá",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30055,
@@ -334,6 +414,38 @@
       "channel_count": 4
     },
     {
+      "id": 30061,
+      "time": "19:30:00",
+      "date": "2026-01-15",
+      "description": "NBA: Thunders vs Rockets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30068,
+      "time": "19:45:00",
+      "date": "2026-01-15",
+      "description": "Campeonato Paulista A1: São Paulo vs São Bernardo",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30057,
       "time": "21:00:00",
       "date": "2026-01-15",
@@ -345,6 +457,22 @@
           "name": "FUTV",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=futv"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30062,
+      "time": "22:00:00",
+      "date": "2026-01-15",
+      "description": "NBA: Knicks vs Warriors",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba02"
         }
       ],
       "channel_count": 1
