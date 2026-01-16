@@ -1,65 +1,7 @@
 {
-  "scraped_at": "2026-01-16T21:23:52.867713",
-  "total_events": 21,
+  "scraped_at": "2026-01-16T22:23:58.909384",
+  "total_events": 18,
   "events": [
-    {
-      "id": 30090,
-      "time": "14:00:00",
-      "date": "2026-01-16",
-      "description": "Eerste Divisie: VVV vs AZ II",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30091,
-      "time": "14:00:00",
-      "date": "2026-01-16",
-      "description": "Eerste Divisie:  \nHelmond Sport vs Vitesse",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2_nl"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30092,
-      "time": "14:00:00",
-      "date": "2026-01-16",
-      "description": "Eerste Divisie:  \nADO Den Haag vs Cambuur",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN NL ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjFfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjFfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMV9ubA==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30071,
       "time": "14:30:00",
