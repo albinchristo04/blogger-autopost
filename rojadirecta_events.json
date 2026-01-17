@@ -1,44 +1,7 @@
 {
-  "scraped_at": "2026-01-17T21:20:23.866394",
-  "total_events": 29,
+  "scraped_at": "2026-01-17T22:22:08.957118",
+  "total_events": 27,
   "events": [
-    {
-      "id": 30140,
-      "time": "14:00:00",
-      "date": "2026-01-17",
-      "description": " Eredivisie: Fortuna Sittard vs PSV",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2_nl"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30139,
-      "time": "14:00:00",
-      "date": "2026-01-17",
-      "description": " Eredivisie: Excelsior vs Telstar",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30130,
       "time": "14:30:00",
