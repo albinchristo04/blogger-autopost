@@ -1,48 +1,7 @@
 {
-  "scraped_at": "2026-01-16T23:22:32.370159",
-  "total_events": 12,
+  "scraped_at": "2026-01-17T01:50:34.991840",
+  "total_events": 10,
   "events": [
-    {
-      "id": 30075,
-      "time": "15:15:00",
-      "date": "2026-01-16",
-      "description": "Primeira Liga: \nSporting CP vs Casa Pia",
-      "country": "Portugal",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/portugal_914accbdd5_06fa714d5c.png",
-      "channels": [],
-      "channel_count": 0
-    },
-    {
-      "id": 30082,
-      "time": "16:15:00",
-      "date": "2026-01-16",
-      "description": "Partido Amistoso Internacional: \nCúcuta Deportivo vs Huracán",
-      "country": "Amistoso",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        }
-      ],
-      "channel_count": 4
-    },
     {
       "id": 30083,
       "time": "18:00:00",
