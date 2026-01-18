@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-18T18:31:05.050229",
-  "total_events": 44,
+  "scraped_at": "2026-01-18T19:17:51.788543",
+  "total_events": 43,
   "events": [
-    {
-      "id": 30195,
-      "time": "10:45:00",
-      "date": "2026-01-18",
-      "description": " Eredivisie: \nFeyenoord vs Sparta Rotterdam",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
-        },
-        {
-          "name": "ESPN 2 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2_nl"
-        },
-        {
-          "name": "Disney 10",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30173,
       "time": "11:15:00",
