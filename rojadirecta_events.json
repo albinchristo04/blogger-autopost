@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-18T11:18:46.855164",
+  "scraped_at": "2026-01-18T12:44:33.047679",
   "total_events": 61,
   "events": [
     {
@@ -81,9 +81,29 @@
           "name": "ESPN MX | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "FOX Deportes",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 6
+      "channel_count": 10
     },
     {
       "id": 30187,
@@ -94,25 +114,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30185,
-      "time": "07:30:00",
-      "date": "2026-01-18",
-      "description": "2. Bundesliga: Holstein Kiel vs Paderborn",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
         }
       ],
       "channel_count": 1
@@ -126,9 +130,30 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "Fox Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzCg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports\n"
+        }
+      ],
+      "channel_count": 2
+    },
+    {
+      "id": 30185,
+      "time": "07:30:00",
+      "date": "2026-01-18",
+      "description": "2. Bundesliga: Holstein Kiel vs Paderborn",
+      "country": "Alemania",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
       "channel_count": 1
@@ -162,6 +187,11 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=canal5"
         },
         {
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
           "decoded_url": "https://futbollibrelibre.com/online/canales.php?stream=espndeportes"
@@ -177,7 +207,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
         }
       ],
-      "channel_count": 7
+      "channel_count": 8
     },
     {
       "id": 30196,
