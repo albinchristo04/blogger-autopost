@@ -1,238 +1,7 @@
 {
-  "scraped_at": "2026-01-18T02:03:09.878792",
-  "total_events": 15,
+  "scraped_at": "2026-01-18T04:06:46.153424",
+  "total_events": 6,
   "events": [
-    {
-      "id": 30123,
-      "time": "18:00:00",
-      "date": "2026-01-17",
-      "description": "Serie Río de la Plata: San Lorenzo vs Cerro Porteño",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30135,
-      "time": "18:00:00",
-      "date": "2026-01-17",
-      "description": "Liga de Expansión MX: \nTlaxcala vs Cancún",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30132,
-      "time": "18:07:00",
-      "date": "2026-01-17",
-      "description": "Liga MX: Guadalajara vs Querétaro",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZW11bmRv",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Universo",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dW5pdmVyc28=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=universo"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30120,
-      "time": "18:20:00",
-      "date": "2026-01-17",
-      "description": " Categoría Primera A:  \nAtlético Nacional vs Boyacá Chicó",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30158,
-      "time": "18:30:00",
-      "date": "2026-01-17",
-      "description": "Campeonato Paulista A1: Palmeiras vs Mirassol",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "MAX 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9wZWxvdGFsaWJyZWhkdHYuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1tYXg1",
-          "decoded_url": "https://pelotalibrehdtv.com/canales.php?stream=max5"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30148,
-      "time": "19:00:00",
-      "date": "2026-01-17",
-      "description": "Primera División: \nPuntarenas vs Cartaginés",
-      "country": "Costa Rica",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/costa_rica_cb5e6c6746_67d705d4bb.png",
-      "channels": [
-        {
-          "name": "FUTV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=futv"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30152,
-      "time": "19:05:00",
-      "date": "2026-01-17",
-      "description": "Major Arena Soccer League: \nMilwaukee Wave vs San Diego Sockers",
-      "country": "Estados Unidos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/estados_unidos_de_america_b400fc18c4_efc73480e0.png",
-      "channels": [
-        {
-          "name": "Fox Sports MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzbXgK",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsportsmx\n"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30159,
-      "time": "19:30:00",
-      "date": "2026-01-17",
-      "description": "Campeonato Carioca: \nVolta Redonda vs Flamengo",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        },
-        {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30131,
-      "time": "19:45:00",
-      "date": "2026-01-17",
-      "description": "Partido Amistoso Internacional: \nPeñarol vs River Plate",
-      "country": "Amistoso",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30133,
-      "time": "20:00:00",
-      "date": "2026-01-17",
-      "description": "Liga MX:  Tigres UANL vs Toluca",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "Fox Sports 2 USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzMl91c2E=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "Azteca 7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YXp0ZWNhNw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09YXp0ZWNhNw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1henRlY2E3",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=azteca7"
-        },
-        {
-          "name": "Telemundo",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dGVsZW11bmRv",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Universo",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dW5pdmVyc28=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=universo"
-        }
-      ],
-      "channel_count": 6
-    },
-    {
-      "id": 30136,
-      "time": "20:00:00",
-      "date": "2026-01-17",
-      "description": "Liga de Expansión MX: \nIrapuato vs Leones Negros UdeG",
-      "country": "México",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30121,
       "time": "20:30:00",
@@ -276,6 +45,22 @@
       "channel_count": 1
     },
     {
+      "id": 30221,
+      "time": "22:00:00",
+      "date": "2026-01-17",
+      "description": "NBA: Portland Trail Blazers vs Los Angeles Lakers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30134,
       "time": "22:00:00",
       "date": "2026-01-17",
@@ -283,26 +68,6 @@
       "country": "México",
       "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
       "channels": [
-        {
-          "name": "TUDN MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dHVkbl9teA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tudn_mx"
-        },
-        {
-          "name": "TUDN MX | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09dHVkbl9teA==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=tudn_mx"
-        },
-        {
-          "name": "TUDN MX | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRuX214",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn_mx"
-        },
-        {
-          "name": "Univision USA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dW5pdmlzaW9u",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=univision"
-        },
         {
           "name": "TUDN USA",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
@@ -319,7 +84,23 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
         }
       ],
-      "channel_count": 7
+      "channel_count": 3
+    },
+    {
+      "id": 30222,
+      "time": "22:00:00",
+      "date": "2026-01-17",
+      "description": "BOXEO: Ricardo Salas vs Bryan Eduardo Carrillo",
+      "country": "Boxeo",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/boxeo_2024_b15889ae93_ae58e10dcb.png",
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30153,
