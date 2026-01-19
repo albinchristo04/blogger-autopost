@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-19T20:27:44.365271",
-  "total_events": 8,
+  "scraped_at": "2026-01-19T21:22:43.856798",
+  "total_events": 7,
   "events": [
-    {
-      "id": 30229,
-      "time": "12:30:00",
-      "date": "2026-01-19",
-      "description": "Serie A: Cremonese vs Verona",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30234,
       "time": "14:30:00",
@@ -146,6 +130,21 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
       "channels": [
         {
+          "name": "Win Sports 2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2 | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2 | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
+        },
+        {
           "name": "Win Sports +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
@@ -161,7 +160,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsportsplus"
         }
       ],
-      "channel_count": 3
+      "channel_count": 6
     },
     {
       "id": 30232,
@@ -177,6 +176,11 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         },
         {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
+        },
+        {
           "name": "ESPN Premium┃OP2",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
@@ -187,7 +191,7 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30233,
