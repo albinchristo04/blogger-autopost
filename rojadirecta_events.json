@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-19T19:20:55.231570",
-  "total_events": 9,
+  "scraped_at": "2026-01-19T20:27:44.365271",
+  "total_events": 8,
   "events": [
-    {
-      "id": 30235,
-      "time": "12:00:00",
-      "date": "2026-01-19",
-      "description": "Super Lig: Beşiktaş vs Kayserispor",
-      "country": "Turquía",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/pavo_980d87b7ad_8827bbb7ba.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "Fox Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports2"
-        },
-        {
-          "name": "BeIN Sports Español",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YmVpbnNwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=beinsportes"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30229,
       "time": "12:30:00",
