@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-20T03:47:47.729417",
-  "total_events": 2,
+  "scraped_at": "2026-01-20T04:48:32.404333",
+  "total_events": 1,
   "events": [
-    {
-      "id": 30239,
-      "time": "20:00:00",
-      "date": "2026-01-19",
-      "description": "NBA: Detroit Pistons vs Boston Celtics",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30242,
       "time": "22:00:00",
