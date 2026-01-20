@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-20T16:38:58.661336",
+  "scraped_at": "2026-01-20T17:32:14.215479",
   "total_events": 19,
   "events": [
     {
@@ -37,6 +37,16 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/arabia_saudita_82c6f9c376_70d77b2bc2.png",
       "channels": [
         {
+          "name": "Fox Deportes USA - Exclusiva",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
+          "name": "FOX Deportes - Exclusiva",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
+        },
+        {
           "name": "FOX Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
@@ -52,7 +62,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 3
+      "channel_count": 5
     },
     {
       "id": 30244,
