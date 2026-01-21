@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-21T17:56:59.739912",
-  "total_events": 32,
+  "scraped_at": "2026-01-21T18:53:21.432092",
+  "total_events": 31,
   "events": [
-    {
-      "id": 30287,
-      "time": "10:00:00",
-      "date": "2026-01-21",
-      "description": "UEFA Futsal European Championship: \nCroacia vs Francia",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "ESPN MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30295,
       "time": "12:30:00",
