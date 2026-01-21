@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-21T21:30:55.397332",
-  "total_events": 25,
+  "scraped_at": "2026-01-21T22:28:23.018138",
+  "total_events": 29,
   "events": [
     {
       "id": 30284,
@@ -300,12 +300,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
       "channels": [
         {
+          "name": "TNT Sports  +Chile",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
+        },
+        {
           "name": "MAX 05",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9wZWxvdGFsaWJyZWhkdHYuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1tYXg1",
           "decoded_url": "https://pelotalibrehdtv.com/canales.php?stream=max5"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGUK",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsportschile\n"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30285,
@@ -319,6 +329,54 @@
           "name": "Tigo Sports - Guatemala",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30304,
+      "time": "17:00:00",
+      "date": "2026-01-21",
+      "description": "Campeonato Gaúcho: Internacional vs Inter Santa Maria",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30305,
+      "time": "17:00:00",
+      "date": "2026-01-21",
+      "description": "Campeonato Carioca: Botafogo vs Volta Redonda",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30306,
+      "time": "18:00:00",
+      "date": "2026-01-21",
+      "description": "Campeonato Paulista A1: Mirassol vs RB Bragantino",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
         }
       ],
       "channel_count": 1
@@ -440,10 +498,26 @@
       "channel_count": 1
     },
     {
+      "id": 30307,
+      "time": "19:30:00",
+      "date": "2026-01-21",
+      "description": "Campeonato Carioca: Flamengo vs Vasco da Gama",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30282,
       "time": "19:30:00",
       "date": "2026-01-21",
-      "description": "Superliga Colombiana: \nSanta Fe vs Junior",
+      "description": "Superliga Colombiana: Santa Fe vs Junior | FINAL (2/2)",
       "country": "Colombia",
       "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
       "channels": [
@@ -461,9 +535,24 @@
           "name": "Win Sports 2 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRzcGx1cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsportsplus"
         }
       ],
-      "channel_count": 3
+      "channel_count": 6
     },
     {
       "id": 30299,
