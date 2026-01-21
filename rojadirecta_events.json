@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-21T18:53:21.432092",
-  "total_events": 31,
+  "scraped_at": "2026-01-21T19:28:52.245538",
+  "total_events": 29,
   "events": [
     {
       "id": 30295,
@@ -145,38 +145,6 @@
         }
       ],
       "channel_count": 3
-    },
-    {
-      "id": 30288,
-      "time": "13:00:00",
-      "date": "2026-01-21",
-      "description": "UEFA Futsal European Championship: Letonia vs Georgia",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30290,
-      "time": "14:30:00",
-      "date": "2026-01-21",
-      "description": "Copa Italia Femenina: Lazio vs Roma",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
     },
     {
       "id": 30276,
