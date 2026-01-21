@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-20T23:25:48.143549",
-  "total_events": 14,
+  "scraped_at": "2026-01-21T01:58:53.690914",
+  "total_events": 13,
   "events": [
     {
       "id": 30262,
@@ -43,9 +43,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+          "name": "NBA Señal 7",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
         }
       ],
       "channel_count": 1
@@ -59,9 +59,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+          "name": "NBA Señal 5",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
         }
       ],
       "channel_count": 1
@@ -129,42 +129,6 @@
         }
       ],
       "channel_count": 1
-    },
-    {
-      "id": 30253,
-      "time": "17:00:00",
-      "date": "2026-01-20",
-      "description": "Supercopa de Chile: Huachipato vs Universidad Católica",
-      "country": "Chile",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
-      "channels": [
-        {
-          "name": "TNT Sports - Exclusiva",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
-        },
-        {
-          "name": "TNT Sports  +Chile",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGUK",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsportschile\n"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRzY2hpbGUK",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsportschile\n"
-        },
-        {
-          "name": "MAX 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
-        }
-      ],
-      "channel_count": 5
     },
     {
       "id": 30254,
