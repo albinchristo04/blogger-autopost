@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-21T14:34:11.471818",
+  "scraped_at": "2026-01-21T15:35:38.665420",
   "total_events": 33,
   "events": [
     {
@@ -71,32 +71,6 @@
       "channel_count": 3
     },
     {
-      "id": 30270,
-      "time": "12:45:00",
-      "date": "2026-01-21",
-      "description": "UEFA Champions League: Galatasaray vs Atlético Madrid",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
       "id": 30271,
       "time": "12:45:00",
       "date": "2026-01-21",
@@ -118,9 +92,65 @@
           "name": "ESPN 2 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
         }
       ],
-      "channel_count": 3
+      "channel_count": 5
+    },
+    {
+      "id": 30270,
+      "time": "12:45:00",
+      "date": "2026-01-21",
+      "description": "UEFA Champions League: Galatasaray vs Atlético Madrid",
+      "country": "UEFA Champions League",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
+        }
+      ],
+      "channel_count": 7
     },
     {
       "id": 30294,
@@ -181,32 +211,6 @@
       "channel_count": 1
     },
     {
-      "id": 30273,
-      "time": "15:00:00",
-      "date": "2026-01-21",
-      "description": "UEFA Champions League: Bayern München vs Union Saint-Gilloise\n",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
       "id": 30276,
       "time": "15:00:00",
       "date": "2026-01-21",
@@ -263,6 +267,42 @@
         }
       ],
       "channel_count": 1
+    },
+    {
+      "id": 30273,
+      "time": "15:00:00",
+      "date": "2026-01-21",
+      "description": "UEFA Champions League: Bayern München vs Union Saint-Gilloise\n",
+      "country": "UEFA Champions League",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
+        },
+        {
+          "name": "Paramount 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cGFyYW1vdW50Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=paramount2"
+        }
+      ],
+      "channel_count": 5
     },
     {
       "id": 30272,
