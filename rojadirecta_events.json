@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-22T19:27:01.594400",
-  "total_events": 40,
+  "scraped_at": "2026-01-22T20:31:04.172068",
+  "total_events": 44,
   "events": [
     {
       "id": 30339,
@@ -296,9 +296,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 11",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
         }
       ],
       "channel_count": 1
@@ -312,22 +312,27 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 12",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney12"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
+          "name": "TUDN USA | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30318,
@@ -338,22 +343,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "ESPN 3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
+          "name": "Disney 14",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTQ=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney14"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
+          "name": "ESPN 4 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjRteA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4mx"
         }
       ],
-      "channel_count": 3
+      "channel_count": 2
     },
     {
       "id": 30319,
@@ -364,22 +364,12 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "ESPN 4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
+          "name": "Disney 15",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTU=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney15"
         }
       ],
-      "channel_count": 3
+      "channel_count": 1
     },
     {
       "id": 30321,
@@ -390,22 +380,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "ESPN 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
+          "name": "Disney 13",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTM=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney13"
         },
         {
-          "name": "ESPN 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
+          "name": "ESPN 2 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
         }
       ],
-      "channel_count": 3
+      "channel_count": 2
     },
     {
       "id": 30323,
@@ -416,9 +401,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 19",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTk=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney19"
         }
       ],
       "channel_count": 1
@@ -432,25 +417,25 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
         }
       ],
       "channel_count": 1
     },
     {
-      "id": 30320,
+      "id": 30324,
       "time": "15:00:00",
       "date": "2026-01-22",
-      "description": "UEFA Europa League: \nNice vs Go Ahead Eagles",
+      "description": "UEFA Europa League: Salzburg vs Basel",
       "country": "UEFA Europa League",
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 17",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTc=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney17"
         }
       ],
       "channel_count": 1
@@ -464,48 +449,12 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "ESPN 5",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
+          "name": "Disney 16",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTY=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney16"
         }
       ],
-      "channel_count": 3
-    },
-    {
-      "id": 30324,
-      "time": "15:00:00",
-      "date": "2026-01-22",
-      "description": "UEFA Europa League: Salzburg vs Basel",
-      "country": "UEFA Europa League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjc=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjc=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn7"
-        }
-      ],
-      "channel_count": 3
+      "channel_count": 1
     },
     {
       "id": 30326,
@@ -516,22 +465,86 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
       "channels": [
         {
-          "name": "TYC Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tycsports"
+          "name": "TNT Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
         },
         {
-          "name": "TyC Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tycsports"
+          "name": "TNT Sports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
         },
         {
-          "name": "TYC Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dHljc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tycsports"
+          "name": "TNT Sports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30352,
+      "time": "15:00:00",
+      "date": "2026-01-22",
+      "description": "UEFA Europa League: Rangers vs Ludogorets",
+      "country": "UEFA Europa League",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
+      "channels": [
+        {
+          "name": "Disney 18",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTg=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney18"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30320,
+      "time": "15:00:00",
+      "date": "2026-01-22",
+      "description": "UEFA Europa League: \nNice vs Go Ahead Eagles",
+      "country": "UEFA Europa League",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
+      "channels": [
+        {
+          "name": "Disney 20",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MjA=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney20"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30353,
+      "time": "16:30:00",
+      "date": "2026-01-22",
+      "description": "Campeonato Mineiro: Cruzeiro vs Democrata GV",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30355,
+      "time": "17:00:00",
+      "date": "2026-01-22",
+      "description": "Campeonato Carioca: Boavista vs Portuguesa RJ",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30337,
@@ -545,6 +558,22 @@
           "name": "Tigo Sports - Guatemala",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30354,
+      "time": "17:00:00",
+      "date": "2026-01-22",
+      "description": "Campeonato Gaúcho: Juventude vs Caxias",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere 3 BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere3"
         }
       ],
       "channel_count": 1
