@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-22T17:31:31.065983",
-  "total_events": 41,
+  "scraped_at": "2026-01-22T18:37:02.070433",
+  "total_events": 40,
   "events": [
-    {
-      "id": 30333,
-      "time": "10:00:00",
-      "date": "2026-01-22",
-      "description": "Eurocopa de Fútbol Sala de la UEFA: \nArmenia vs Ucrania",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30339,
       "time": "12:30:00",
