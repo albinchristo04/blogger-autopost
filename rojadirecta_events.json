@@ -1,7 +1,23 @@
 {
-  "scraped_at": "2026-01-22T11:25:25.085294",
-  "total_events": 33,
+  "scraped_at": "2026-01-22T12:55:47.359670",
+  "total_events": 42,
   "events": [
+    {
+      "id": 30343,
+      "time": "06:00:00",
+      "date": "2026-01-22",
+      "description": "GOLF: DP World Tour (European Tour)",
+      "country": "Golf",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/golf_4a8d942645_6c3bec75aa.png",
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
+        }
+      ],
+      "channel_count": 1
+    },
     {
       "id": 30333,
       "time": "10:00:00",
@@ -589,6 +605,38 @@
       "channel_count": 3
     },
     {
+      "id": 30344,
+      "time": "19:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Washington Wizards vs Denver Nuggets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30346,
+      "time": "19:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Orlando Magic vs Charlotte Hornets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30335,
       "time": "19:00:00",
       "date": "2026-01-22",
@@ -616,6 +664,54 @@
           "name": "Tigo Sports - Guatemala",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30345,
+      "time": "19:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Philadelphia 76ers vs Houston Rockets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30347,
+      "time": "19:30:00",
+      "date": "2026-01-22",
+      "description": "NBA: Dallas Mavericks vs Golden State Warriors",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30348,
+      "time": "20:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Minnesota Timberwolves vs Chicago Bulls",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -715,6 +811,22 @@
       "channel_count": 3
     },
     {
+      "id": 30349,
+      "time": "21:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Utah Jazz vs San Antonio Spurs",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30340,
       "time": "21:30:00",
       "date": "2026-01-22",
@@ -726,6 +838,38 @@
           "name": "Fox Sports MX",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzbXgK",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsportsmx\n"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30351,
+      "time": "22:00:00",
+      "date": "2026-01-22",
+      "description": "NBA:  Los Angeles Clippers vs Los Angeles Lakers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30350,
+      "time": "22:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Portland Trail Blazers vs Miami Heat",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
