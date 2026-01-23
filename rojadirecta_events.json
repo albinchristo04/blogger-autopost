@@ -1,75 +1,7 @@
 {
-  "scraped_at": "2026-01-23T03:45:38.776023",
-  "total_events": 9,
+  "scraped_at": "2026-01-23T04:45:50.347381",
+  "total_events": 6,
   "events": [
-    {
-      "id": 30348,
-      "time": "20:00:00",
-      "date": "2026-01-22",
-      "description": "NBA: Minnesota Timberwolves vs Chicago Bulls",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "NBA Señal 7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30329,
-      "time": "20:15:00",
-      "date": "2026-01-22",
-      "description": "Liga Profesional:  \nCentral Córdoba SdE vs Gimnasia Mendoza",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30330,
-      "time": "20:15:00",
-      "date": "2026-01-22",
-      "description": "Liga Profesional:  Instituto vs Vélez Sarsfield",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30341,
       "time": "21:00:00",
