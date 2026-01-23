@@ -1,71 +1,7 @@
 {
-  "scraped_at": "2026-01-22T23:24:34.810003",
-  "total_events": 24,
+  "scraped_at": "2026-01-23T01:55:49.493293",
+  "total_events": 20,
   "events": [
-    {
-      "id": 30353,
-      "time": "16:30:00",
-      "date": "2026-01-22",
-      "description": "Campeonato Mineiro: Cruzeiro vs Democrata GV",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30355,
-      "time": "17:00:00",
-      "date": "2026-01-22",
-      "description": "Campeonato Carioca: Boavista vs Portuguesa RJ",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30337,
-      "time": "17:00:00",
-      "date": "2026-01-22",
-      "description": "Liga Nacional: Municipal vs Mictlán",
-      "country": "Guatemala",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Guatemala_3d1523a610.png",
-      "channels": [
-        {
-          "name": "Tigo Sports - Guatemala",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30354,
-      "time": "17:00:00",
-      "date": "2026-01-22",
-      "description": "Campeonato Gaúcho: Juventude vs Caxias",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere 3 BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere3"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30327,
       "time": "18:00:00",
@@ -175,12 +111,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
+          "name": "NBA Señal 5",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
           "name": "NBA",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30335,
@@ -255,9 +196,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+          "name": "NBA 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bmJhMDE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=nba01"
         }
       ],
       "channel_count": 1
@@ -271,9 +212,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+          "name": "NBA Señal 7",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
         }
       ],
       "channel_count": 1
@@ -369,6 +310,11 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=tudn"
         },
         {
+          "name": "Canal 5 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Y2FuYWw1",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=canal5"
+        },
+        {
           "name": "FOX Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
@@ -384,7 +330,23 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
         }
       ],
-      "channel_count": 9
+      "channel_count": 10
+    },
+    {
+      "id": 30349,
+      "time": "21:00:00",
+      "date": "2026-01-22",
+      "description": "NBA: Utah Jazz vs San Antonio Spurs",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 8",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30336,
@@ -398,22 +360,6 @@
           "name": "FUTV",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=futv"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30349,
-      "time": "21:00:00",
-      "date": "2026-01-22",
-      "description": "NBA: Utah Jazz vs San Antonio Spurs",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
