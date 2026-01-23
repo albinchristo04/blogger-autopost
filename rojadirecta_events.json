@@ -1,44 +1,7 @@
 {
-  "scraped_at": "2026-01-23T20:29:23.613752",
-  "total_events": 31,
+  "scraped_at": "2026-01-23T21:24:16.639086",
+  "total_events": 29,
   "events": [
-    {
-      "id": 30376,
-      "time": "12:30:00",
-      "date": "2026-01-23",
-      "description": "2. Bundesliga: Darmstadt 98 vs Nürnberg",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
-        },
-        {
-          "name": "Fox Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzCg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports\n"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30375,
-      "time": "12:30:00",
-      "date": "2026-01-23",
-      "description": "2. Bundesliga: Arminia Bielefeld vs Holstein Kiel",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30381,
       "time": "14:00:00",
