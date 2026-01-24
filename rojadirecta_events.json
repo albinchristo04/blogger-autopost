@@ -1,230 +1,7 @@
 {
-  "scraped_at": "2026-01-24T20:25:10.191970",
-  "total_events": 50,
+  "scraped_at": "2026-01-24T21:20:25.534040",
+  "total_events": 42,
   "events": [
-    {
-      "id": 30399,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": " LaLiga: Sevilla vs Athletic Club",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "ESPN Plus 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMxCg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus1\n"
-        },
-        {
-          "name": "ESPN Plus 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMy",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus2"
-        },
-        {
-          "name": "DSports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/online/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbmRlcG9ydGVz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
-        }
-      ],
-      "channel_count": 8
-    },
-    {
-      "id": 30409,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": "Bundesliga: \nUnion Berlin vs Borussia Dortmund",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 11",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
-        },
-        {
-          "name": "ESPN 5",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30452,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": "LaLiga SmartBank: \nSporting Gijón vs Mirandés",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09aHlwZXJtb3Rpb24y",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=hypermotion2"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30433,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": "Copa América de Futsal: Brasil vs Colombia",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "Sportv - Brasil",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30451,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": "LaLiga SmartBank: Las Palmas vs Córdoba",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09aHlwZXJtb3Rpb24x",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=hypermotion1"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        },
-        {
-          "name": "Disney 10",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30396,
-      "time": "12:30:00",
-      "date": "2026-01-24",
-      "description": "Premier League: \nAFC Bournemouth vs Liverpool",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "Disney 08",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
-        },
-        {
-          "name": "Disney 17",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTc=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney17"
-        },
-        {
-          "name": "USA Network",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dXNhbmV0d29yawo=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=usanetwork\n"
-        },
-        {
-          "name": "Universo",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dW5pdmVyc28=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=universo"
-        }
-      ],
-      "channel_count": 7
-    },
-    {
-      "id": 30446,
-      "time": "12:45:00",
-      "date": "2026-01-24",
-      "description": " Eredivisie: NEC vs PEC Zwolle",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30411,
-      "time": "13:00:00",
-      "date": "2026-01-24",
-      "description": "Ligue 1: \nLe Havre vs Monaco",
-      "country": "Francia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_francia_9e29308ee7.png",
-      "channels": [
-        {
-          "name": "Disney 11",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
-        },
-        {
-          "name": "BeIN Sports Español",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YmVpbnNwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=beinsportes"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30447,
       "time": "14:00:00",
@@ -605,6 +382,22 @@
       "channel_count": 3
     },
     {
+      "id": 30461,
+      "time": "17:00:00",
+      "date": "2026-01-24",
+      "description": "Partido Amistoso Internacional: \nAlianza Lima vs Inter Miami",
+      "country": "Perú",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/peru_ddc4e685cf_43831ed9b0.png",
+      "channels": [
+        {
+          "name": "America TV",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30437,
       "time": "17:00:00",
       "date": "2026-01-24",
@@ -925,22 +718,6 @@
         }
       ],
       "channel_count": 3
-    },
-    {
-      "id": 30461,
-      "time": "20:00:00",
-      "date": "2026-01-24",
-      "description": "Partido Amistoso Internacional: \nAlianza Lima vs Inter Miami",
-      "country": "Perú",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/peru_ddc4e685cf_43831ed9b0.png",
-      "channels": [
-        {
-          "name": "America TV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
-        }
-      ],
-      "channel_count": 1
     },
     {
       "id": 30439,
