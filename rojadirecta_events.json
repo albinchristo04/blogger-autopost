@@ -1,69 +1,7 @@
 {
-  "scraped_at": "2026-01-24T16:28:16.673769",
-  "total_events": 64,
+  "scraped_at": "2026-01-24T17:20:01.442393",
+  "total_events": 62,
   "events": [
-    {
-      "id": 30429,
-      "time": "08:30:00",
-      "date": "2026-01-24",
-      "description": "UEFA Futsal European Championship: Italia vs Portugal",
-      "country": "Amistosos Paises",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
-      "channels": [
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        },
-        {
-          "name": "Disney 10",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30401,
-      "time": "09:00:00",
-      "date": "2026-01-24",
-      "description": "Serie A: Como vs Torino",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "ESPN MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
-        },
-        {
-          "name": "FOX Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09Zm94ZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ],
-      "channel_count": 6
-    },
     {
       "id": 30406,
       "time": "09:30:00",
