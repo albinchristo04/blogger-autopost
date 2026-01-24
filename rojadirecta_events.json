@@ -1,59 +1,7 @@
 {
-  "scraped_at": "2026-01-24T21:20:25.534040",
-  "total_events": 42,
+  "scraped_at": "2026-01-24T22:22:03.845401",
+  "total_events": 40,
   "events": [
-    {
-      "id": 30447,
-      "time": "14:00:00",
-      "date": "2026-01-24",
-      "description": " Eredivisie: \nPSV vs NAC Breda",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3mx"
-        },
-        {
-          "name": "Disney 12",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney12"
-        },
-        {
-          "name": "ESPN 2 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2_nl"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30416,
-      "time": "14:00:00",
-      "date": "2026-01-24",
-      "description": "Categoría Primera A: Deportivo Pereira vs Fortaleza CEIF",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30428,
       "time": "14:30:00",
@@ -390,12 +338,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/peru_ddc4e685cf_43831ed9b0.png",
       "channels": [
         {
-          "name": "America TV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09YW1lcmljYXR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=americatv"
+          "name": "Liga1MAX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bGlnYTFtYXg=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09bGlnYTFtYXg=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1saWdhMW1heA==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=liga1max"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30437,
