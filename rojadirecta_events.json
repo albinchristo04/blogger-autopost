@@ -1,75 +1,7 @@
 {
-  "scraped_at": "2026-01-25T04:14:34.905209",
-  "total_events": 8,
+  "scraped_at": "2026-01-25T05:29:59.646846",
+  "total_events": 5,
   "events": [
-    {
-      "id": 30468,
-      "time": "20:30:00",
-      "date": "2026-01-24",
-      "description": "NBA: Dallas Mavericks vs Los Angeles Lakers",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30419,
-      "time": "20:30:00",
-      "date": "2026-01-24",
-      "description": "Categoría Primera A: Boyacá Chicó vs América de Cali",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30460,
-      "time": "20:30:00",
-      "date": "2026-01-24",
-      "description": "Liga Nacional: Real España vs Olancho",
-      "country": "Honduras",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/honduras_754919ea25_d66393ecc3.png",
-      "channels": [
-        {
-          "name": "Tigo Sports | Honduras",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIw",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento20"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30525,
       "time": "21:00:00",
