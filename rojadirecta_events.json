@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-25T12:48:35.515485",
-  "total_events": 59,
+  "scraped_at": "2026-01-25T13:33:55.475473",
+  "total_events": 60,
   "events": [
     {
       "id": 30517,
@@ -107,6 +107,22 @@
       "channel_count": 1
     },
     {
+      "id": 30534,
+      "time": "07:00:00",
+      "date": "2026-01-25",
+      "description": "Women's Super League: London City Lionesses vs Manchester City",
+      "country": "Inglaterra",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
+      "channels": [
+        {
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30510,
       "time": "07:00:00",
       "date": "2026-01-25",
@@ -115,9 +131,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/amistosos_bbe2ec4c17_02fd4e7093.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
         }
       ],
       "channel_count": 1
@@ -134,9 +150,14 @@
           "name": "Fox Sports",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzCg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30504,
@@ -147,9 +168,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 07",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Nw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney7"
         }
       ],
       "channel_count": 1
@@ -163,9 +184,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 08",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
         }
       ],
       "channel_count": 1
@@ -210,22 +231,12 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
         },
         {
-          "name": "ESPN Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/online/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbmRlcG9ydGVz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
+          "name": "Disney 09",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
         }
       ],
-      "channel_count": 6
+      "channel_count": 4
     },
     {
       "id": 30518,
@@ -270,22 +281,6 @@
       "channel_count": 1
     },
     {
-      "id": 30473,
-      "time": "09:00:00",
-      "date": "2026-01-25",
-      "description": "Premier League: Newcastle United vs Aston Villa",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30474,
       "time": "09:00:00",
       "date": "2026-01-25",
@@ -294,12 +289,33 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 10",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
         }
       ],
       "channel_count": 1
+    },
+    {
+      "id": 30473,
+      "time": "09:00:00",
+      "date": "2026-01-25",
+      "description": "Premier League: Newcastle United vs Aston Villa",
+      "country": "Inglaterra",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
+      "channels": [
+        {
+          "name": "Disney 11",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
+        },
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 30481,
@@ -342,12 +358,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 12",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTI=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney12"
+        },
+        {
+          "name": "MAX 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30485,
@@ -584,6 +605,11 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
         },
         {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
@@ -594,7 +620,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30483,
