@@ -1,49 +1,7 @@
 {
-  "scraped_at": "2026-01-25T21:21:53.790269",
-  "total_events": 34,
+  "scraped_at": "2026-01-25T22:23:06.940279",
+  "total_events": 32,
   "events": [
-    {
-      "id": 30507,
-      "time": "13:30:00",
-      "date": "2026-01-25",
-      "description": " Amistoso Internacional: \nMelgar vs Macará",
-      "country": "Perú",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/peru_ddc4e685cf_43831ed9b0.png",
-      "channels": [
-        {
-          "name": "Movistar Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bW92aXN0YXI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=movistar"
-        },
-        {
-          "name": "Movistar Deportes I OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1tb3Zpc3Rhcg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=movistar"
-        },
-        {
-          "name": "Movistar Deportes | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXZlbnRvMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=evento2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30536,
-      "time": "14:00:00",
-      "date": "2026-01-25",
-      "description": "Campeonato Paulista A1: Santos vs RB Bragantino",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "MAX 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max4"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30533,
       "time": "14:30:00",
@@ -316,17 +274,12 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/costa_rica_cb5e6c6746_67d705d4bb.png",
       "channels": [
         {
-          "name": "FUTV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=futv"
-        },
-        {
           "name": "FUTV CR ",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
         }
       ],
-      "channel_count": 2
+      "channel_count": 1
     },
     {
       "id": 30496,
@@ -364,8 +317,8 @@
       "channels": [
         {
           "name": "Tigo Sports - Paraguay",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
         }
       ],
       "channel_count": 1
@@ -520,12 +473,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
       "channels": [
         {
+          "name": "TNT Sports - Chile",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        },
+        {
           "name": "MAX 01",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30516,
@@ -642,8 +600,8 @@
       "channels": [
         {
           "name": "Tigo Sports - Paraguay",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
         }
       ],
       "channel_count": 1
@@ -767,8 +725,8 @@
       "channels": [
         {
           "name": "FUTV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZnV0dg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=futv"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
         }
       ],
       "channel_count": 1
