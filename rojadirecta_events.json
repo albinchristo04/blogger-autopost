@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-26T18:39:48.107456",
+  "scraped_at": "2026-01-26T19:25:51.705160",
   "total_events": 23,
   "events": [
     {
@@ -120,12 +120,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/CONCACAF_W_b46ae6ffee.png",
       "channels": [
         {
+          "name": "Disney Plus (+5)",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
           "name": "Disney 03",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30565,
