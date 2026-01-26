@@ -1,32 +1,5 @@
 {
-  "scraped_at": "2026-01-26T04:17:05.730099",
-  "total_events": 1,
-  "events": [
-    {
-      "id": 30498,
-      "time": "20:20:00",
-      "date": "2026-01-25",
-      "description": "Categoría Primera A: \nOnce Caldas vs Santa Fe",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    }
-  ]
+  "scraped_at": "2026-01-26T05:34:22.090936",
+  "total_events": 0,
+  "events": []
 }
