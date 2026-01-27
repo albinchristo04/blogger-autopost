@@ -1,54 +1,7 @@
 {
-  "scraped_at": "2026-01-27T19:28:56.134021",
-  "total_events": 22,
+  "scraped_at": "2026-01-27T20:26:54.605458",
+  "total_events": 20,
   "events": [
-    {
-      "id": 30595,
-      "time": "11:30:00",
-      "date": "2026-01-27",
-      "description": " Ciclismo – Grand Prix Longitudinal del Norte",
-      "country": "Ciclismo",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Pngtree_logo_bike_cycling_mtb_isolated_5209109_fbde4a6148_0df2a2f68b.png",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30587,
-      "time": "11:30:00",
-      "date": "2026-01-27",
-      "description": "UEFA Futsal European Championship: Hungría vs Portugal",
-      "country": "Eurocopa 2026",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
-      "channels": [
-        {
-          "name": "Disney Plus (+5)",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
-        },
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30591,
       "time": "14:00:00",
@@ -121,12 +74,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
+          "name": "Disney Plus (+5)",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
           "name": "Disney 03",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30575,
@@ -267,9 +225,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/Guatemala_3d1523a610.png",
       "channels": [
         {
-          "name": "TIGO SPORTS  | HD",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTNhMzg5OWI4NDg0N2E4NTlhOWU4YTk4ODc4NjgyLmh0bWw=",
-          "decoded_url": "https://voodc.com/embed/85818c93a3899b84847a859a9e8a98878682.html"
+          "name": "TIGO SPORTS",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
         }
       ],
       "channel_count": 1
