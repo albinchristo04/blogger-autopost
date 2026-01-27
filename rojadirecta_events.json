@@ -1,117 +1,7 @@
 {
-  "scraped_at": "2026-01-27T22:25:36.151015",
-  "total_events": 19,
+  "scraped_at": "2026-01-27T23:25:15.891652",
+  "total_events": 16,
   "events": [
-    {
-      "id": 30573,
-      "time": "14:30:00",
-      "date": "2026-01-27",
-      "description": "Bundesliga: \nSt. Pauli vs RB Leipzig",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30588,
-      "time": "14:30:00",
-      "date": "2026-01-27",
-      "description": "UEFA Futsal European Championship: Polonia vs Italia",
-      "country": "Eurocopa 2026",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
-      "channels": [
-        {
-          "name": "Disney 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30574,
-      "time": "14:30:00",
-      "date": "2026-01-27",
-      "description": "Bundesliga: \nWerder Bremen vs Hoffenheim",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney Plus (+5)",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
-        },
-        {
-          "name": "Disney 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30575,
-      "time": "15:00:00",
-      "date": "2026-01-27",
-      "description": " Copa de Italia: \nFiorentina vs Como",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "DSports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Win Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsports"
-        }
-      ],
-      "channel_count": 6
-    },
-    {
-      "id": 30586,
-      "time": "15:00:00",
-      "date": "2026-01-27",
-      "description": "League One: Doncaster Rovers vs Leyton Orient",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "Disney 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30576,
       "time": "15:45:00",
@@ -296,6 +186,22 @@
       "channel_count": 3
     },
     {
+      "id": 30596,
+      "time": "19:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Bucks vs 76ers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30589,
       "time": "19:00:00",
       "date": "2026-01-27",
@@ -414,6 +320,22 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30597,
+      "time": "21:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Clippers vs Jazz",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30592,
