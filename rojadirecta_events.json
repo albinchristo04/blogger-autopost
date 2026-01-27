@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-27T02:02:43.526025",
-  "total_events": 5,
+  "scraped_at": "2026-01-27T04:08:38.952323",
+  "total_events": 4,
   "events": [
-    {
-      "id": 30569,
-      "time": "19:00:00",
-      "date": "2026-01-26",
-      "description": "NBA: Magic vs Cavaliers",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30571,
       "time": "20:00:00",
