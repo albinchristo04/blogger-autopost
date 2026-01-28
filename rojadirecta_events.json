@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-28T16:40:54.629349",
+  "scraped_at": "2026-01-28T17:34:14.267554",
   "total_events": 65,
   "events": [
     {
@@ -119,22 +119,6 @@
       "channel_count": 1
     },
     {
-      "id": 30644,
-      "time": "12:30:00",
-      "date": "2026-01-28",
-      "description": "Copa América de Futsal: Chile vs Brasil",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30657,
       "time": "12:30:00",
       "date": "2026-01-28",
@@ -159,6 +143,27 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30644,
+      "time": "12:30:00",
+      "date": "2026-01-28",
+      "description": "Copa América de Futsal: Chile vs Brasil",
+      "country": "Conmebol",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
+      "channels": [
+        {
+          "name": "TUDN - VIX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
+        },
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 30642,
