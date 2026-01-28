@@ -1,96 +1,7 @@
 {
-  "scraped_at": "2026-01-27T23:25:15.891652",
-  "total_events": 16,
+  "scraped_at": "2026-01-28T01:58:31.057521",
+  "total_events": 17,
   "events": [
-    {
-      "id": 30576,
-      "time": "15:45:00",
-      "date": "2026-01-27",
-      "description": "Liga Profesional: \nVélez Sarsfield vs Talleres Córdoba",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "Disney 06",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30581,
-      "time": "16:00:00",
-      "date": "2026-01-27",
-      "description": "Categoría Primera A: \nCúcuta Deportivo vs Atlético Bucaramanga",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30584,
-      "time": "16:00:00",
-      "date": "2026-01-27",
-      "description": " Primera División: Sportivo Luqueño vs Nacional Asunción",
-      "country": "Paraguay",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paraguay_fc9dd78de7_fda39878d0.png",
-      "channels": [
-        {
-          "name": "Tigo Sports - Paraguay",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30590,
-      "time": "16:00:00",
-      "date": "2026-01-27",
-      "description": " Liga Nacional: \nCobán Imperial vs Marquense",
-      "country": "Guatemala",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Guatemala_3d1523a610.png",
-      "channels": [
-        {
-          "name": "TIGO SPORTS",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30577,
       "time": "18:00:00",
@@ -186,17 +97,17 @@
       "channel_count": 3
     },
     {
-      "id": 30596,
+      "id": 30598,
       "time": "19:00:00",
       "date": "2026-01-27",
-      "description": "NBA: Bucks vs 76ers",
+      "description": "NBA: Washington Wizards vs Portland Trail Blazers",
       "country": "NBA",
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "MAX 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+          "name": "NBA Señal 2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
         }
       ],
       "channel_count": 1
@@ -242,6 +153,54 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30599,
+      "time": "19:30:00",
+      "date": "2026-01-27",
+      "description": "NBA: New York Knicks vs Sacramento Kings",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 7",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30601,
+      "time": "20:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Philadelphia 76ers vs Milwaukee Bucks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 5",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30600,
+      "time": "20:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Oklahoma City Thunder vs New Orleans Pelicans",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 8",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30579,
@@ -322,8 +281,40 @@
       "channel_count": 3
     },
     {
-      "id": 30597,
+      "id": 30603,
       "time": "21:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Phoenix Suns vs Brooklyn Nets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30602,
+      "time": "21:00:00",
+      "date": "2026-01-27",
+      "description": "NBA: Denver Nuggets vs Detroit Pistons",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30597,
+      "time": "22:00:00",
       "date": "2026-01-27",
       "description": "NBA: Clippers vs Jazz",
       "country": "NBA",
