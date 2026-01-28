@@ -1,75 +1,7 @@
 {
-  "scraped_at": "2026-01-28T18:40:49.787197",
-  "total_events": 64,
+  "scraped_at": "2026-01-28T19:31:18.041438",
+  "total_events": 61,
   "events": [
-    {
-      "id": 30639,
-      "time": "10:30:00",
-      "date": "2026-01-28",
-      "description": "Eurocopa de Fútbol Sala de la UEFA: Letonia vs Croacia",
-      "country": "Eurocopa 2026",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
-      "channels": [
-        {
-          "name": "Disney Plus (+4)",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW40",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even4"
-        },
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30659,
-      "time": "10:30:00",
-      "date": "2026-01-28",
-      "description": "Ciclismo – Grand Prix Oriente",
-      "country": "Ciclismo",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Pngtree_logo_bike_cycling_mtb_isolated_5209109_fbde4a6148_0df2a2f68b.png",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30640,
-      "time": "10:30:00",
-      "date": "2026-01-28",
-      "description": "Eurocopa de Fútbol Sala de la UEFA:  \nGeorgia vs Francia",
-      "country": "Eurocopa 2026",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
-      "channels": [
-        {
-          "name": "Disney Plus +7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
-        },
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30647,
       "time": "12:00:00",
