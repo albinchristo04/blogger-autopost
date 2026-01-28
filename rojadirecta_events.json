@@ -1,497 +1,7 @@
 {
-  "scraped_at": "2026-01-28T22:30:02.563617",
-  "total_events": 55,
+  "scraped_at": "2026-01-28T23:28:54.475707",
+  "total_events": 35,
   "events": [
-    {
-      "id": 30611,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nAtlético Madrid vs Bodø / Glimt",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "Disney 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30618,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: Liverpool vs Qarabağ",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "Disney 06",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30614,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nPSG vs Newcastle United",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 10",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
-        },
-        {
-          "name": "Paramount 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cGFyYW1vdW50NQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=paramount5"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30616,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nNapoli vs Chelsea",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 11",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTE=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney11"
-        },
-        {
-          "name": "MAX 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30622,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "Liga Profesional: Aldosivi vs Barracas Central",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30610,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nManchester City vs Galatasaray",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 12",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney12"
-        },
-        {
-          "name": "MAX 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max3"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30607,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nAthletic Club vs Sporting CP",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 16",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTY=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney16"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30608,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nBayer Leverkusen vs Villarreal",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 17",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTc=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney17"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30645,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "Copa América de Futsal: Argentina vs Ecuador",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "TUDN - VIX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
-        },
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30620,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nBenfica vs Real Madrid",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 2 Perú",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
-        },
-        {
-          "name": "ESPN 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "Disney 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
-        },
-        {
-          "name": "Fox Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzCg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "Paramount 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cGFyYW1vdW50Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=paramount2"
-        }
-      ],
-      "channel_count": 7
-    },
-    {
-      "id": 30609,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nPSV vs Bayern München",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "Disney 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
-        },
-        {
-          "name": "Paramount 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cGFyYW1vdW50MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=paramount1"
-        }
-      ],
-      "channel_count": 5
-    },
-    {
-      "id": 30619,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: Barcelona vs København",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "Disney 07",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Nw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney7"
-        },
-        {
-          "name": "MAX 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
-        },
-        {
-          "name": "Paramount 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cGFyYW1vdW50NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=paramount4"
-        }
-      ],
-      "channel_count": 6
-    },
-    {
-      "id": 30617,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: Arsenal vs Kairat",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 6",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjY=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn6"
-        },
-        {
-          "name": "ESPN 6 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjY=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn6"
-        },
-        {
-          "name": "ESPN 6 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn6"
-        },
-        {
-          "name": "Disney 08",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
-        }
-      ],
-      "channel_count": 4
-    },
-    {
-      "id": 30615,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nBorussia Dortmund vs Internazionale",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjc=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjc=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn7"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        },
-        {
-          "name": "Fox Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Zm94c3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=foxsports2"
-        }
-      ],
-      "channel_count": 5
-    },
-    {
-      "id": 30604,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nMonaco vs Juventus",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 13",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney13"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30605,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nUnion Saint-Gilloise vs Atalanta",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 14",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTQ=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney14"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30606,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nAjax vs Olympiakos Piraeus",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 15",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney15"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30612,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nPaphos vs Slavia Praha",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 18",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTg=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney18"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30613,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: Eintracht Frankfurt vs Tottenham Hotspur",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 19",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTk=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney19"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30621,
-      "time": "15:00:00",
-      "date": "2026-01-28",
-      "description": "UEFA Champions League: \nClub Brugge vs Olympique Marseille",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 20",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MjA=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney20"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30650,
       "time": "16:00:00",
@@ -567,22 +77,6 @@
       "channel_count": 3
     },
     {
-      "id": 30627,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Internacional vs Athletico-PR",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30629,
       "time": "17:00:00",
       "date": "2026-01-28",
@@ -591,12 +85,38 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
       "channels": [
         {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere 1 BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
+    },
+    {
+      "id": 30627,
+      "time": "17:00:00",
+      "date": "2026-01-28",
+      "description": "Brasileirão: Internacional vs Athletico-PR",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere - 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 30626,
@@ -657,22 +177,6 @@
       "channel_count": 3
     },
     {
-      "id": 30630,
-      "time": "17:30:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: \nFluminense vs Grêmio",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30646,
       "time": "17:30:00",
       "date": "2026-01-28",
@@ -689,6 +193,27 @@
       "channel_count": 1
     },
     {
+      "id": 30630,
+      "time": "17:30:00",
+      "date": "2026-01-28",
+      "description": "Brasileirão: \nFluminense vs Grêmio",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere 3 BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 2
+    },
+    {
       "id": 30631,
       "time": "18:00:00",
       "date": "2026-01-28",
@@ -697,12 +222,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
       "channels": [
         {
+          "name": "Premiere - 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW40",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even4"
+        },
+        {
           "name": "Premiere BR ",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30624,
@@ -746,22 +276,6 @@
       "channel_count": 6
     },
     {
-      "id": 30632,
-      "time": "18:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão:  Corinthians vs Bahia",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30651,
       "time": "18:00:00",
       "date": "2026-01-28",
@@ -776,6 +290,27 @@
         }
       ],
       "channel_count": 1
+    },
+    {
+      "id": 30632,
+      "time": "18:00:00",
+      "date": "2026-01-28",
+      "description": "Brasileirão:  Corinthians vs Bahia",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere 2 BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUy",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 30638,
@@ -844,9 +379,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "name": "NBA Señal 6",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -913,8 +448,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -929,8 +464,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -945,8 +480,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -977,8 +512,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -1087,8 +622,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
@@ -1103,8 +638,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
