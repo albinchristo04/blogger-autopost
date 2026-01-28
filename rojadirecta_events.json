@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-28T11:25:09.692092",
-  "total_events": 58,
+  "scraped_at": "2026-01-28T12:56:28.612526",
+  "total_events": 65,
   "events": [
     {
       "id": 30643,
@@ -936,6 +936,22 @@
       "channel_count": 3
     },
     {
+      "id": 30663,
+      "time": "19:00:00",
+      "date": "2026-01-28",
+      "description": "NBA: Indiana Pacers vs Chicago Bulls",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30661,
       "time": "19:00:00",
       "date": "2026-01-28",
@@ -988,6 +1004,54 @@
       "channel_count": 3
     },
     {
+      "id": 30665,
+      "time": "19:30:00",
+      "date": "2026-01-28",
+      "description": "NBA: Toronto Raptors vs New York Knicks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30664,
+      "time": "19:30:00",
+      "date": "2026-01-28",
+      "description": "NBA: Miami Heat vs Orlando Magic",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30666,
+      "time": "19:30:00",
+      "date": "2026-01-28",
+      "description": "NBA: Boston Celtics vs Atlanta Hawks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30633,
       "time": "19:30:00",
       "date": "2026-01-28",
@@ -999,6 +1063,22 @@
           "name": "Premiere BR ",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30667,
+      "time": "20:00:00",
+      "date": "2026-01-28",
+      "description": "NBA: Memphis Grizzlies vs Charlotte Hornets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
         }
       ],
       "channel_count": 1
@@ -1096,6 +1176,38 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30668,
+      "time": "20:30:00",
+      "date": "2026-01-28",
+      "description": "NBA: Dallas Mavericks vs Minnesota Timberwolves",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30669,
+      "time": "21:00:00",
+      "date": "2026-01-28",
+      "description": "NBA: Utah Jazz vs Golden State Warriors",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4y",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30649,
