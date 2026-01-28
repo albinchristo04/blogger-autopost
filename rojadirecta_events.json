@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-28T17:34:14.267554",
-  "total_events": 65,
+  "scraped_at": "2026-01-28T18:40:49.787197",
+  "total_events": 64,
   "events": [
-    {
-      "id": 30643,
-      "time": "10:00:00",
-      "date": "2026-01-28",
-      "description": "Copa América de Futsal: Venezuela vs Bolivia",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "TUDN - VIX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30639,
       "time": "10:30:00",
