@@ -1,28 +1,7 @@
 {
-  "scraped_at": "2026-01-29T17:39:22.574201",
-  "total_events": 52,
+  "scraped_at": "2026-01-29T18:52:35.555609",
+  "total_events": 51,
   "events": [
-    {
-      "id": 30705,
-      "time": "10:00:00",
-      "date": "2026-01-29",
-      "description": "Copa América de Futsal: \nChile vs Colombia",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "Caracol - Colombia",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
-        },
-        {
-          "name": "Caracol TV",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09Y2FyYWNvbA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=caracol"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30701,
       "time": "11:30:00",
