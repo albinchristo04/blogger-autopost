@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-29T21:30:28.297943",
+  "scraped_at": "2026-01-29T22:31:04.300964",
   "total_events": 47,
   "events": [
     {
@@ -605,8 +605,8 @@
       "channels": [
         {
           "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
         }
       ],
       "channel_count": 1
