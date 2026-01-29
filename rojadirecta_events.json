@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-29T18:52:35.555609",
+  "scraped_at": "2026-01-29T19:32:24.324071",
   "total_events": 51,
   "events": [
     {
@@ -90,12 +90,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
       "channels": [
         {
+          "name": "Disney Plus (+5)",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
           "name": "DISNEY +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30704,
@@ -106,12 +111,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/eurocopa_2024_926c69d7ac_5e980bc176.png",
       "channels": [
         {
+          "name": "Disney Plus (+4)",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW40",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even4"
+        },
+        {
           "name": "DISNEY +",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30677,
