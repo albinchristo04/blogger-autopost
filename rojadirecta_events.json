@@ -1,317 +1,7 @@
 {
-  "scraped_at": "2026-01-28T23:28:54.475707",
-  "total_events": 35,
+  "scraped_at": "2026-01-29T02:12:34.621953",
+  "total_events": 20,
   "events": [
-    {
-      "id": 30650,
-      "time": "16:00:00",
-      "date": "2026-01-28",
-      "description": "Liga Nacional: Achuapa vs Mixco",
-      "country": "Guatemala",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Guatemala_3d1523a610.png",
-      "channels": [
-        {
-          "name": "Tigo Sports - Guatemala",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30654,
-      "time": "16:00:00",
-      "date": "2026-01-28",
-      "description": " Liga Nacional: \nPolicía Nacional vs Real España",
-      "country": "Honduras",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/honduras_754919ea25_d66393ecc3.png",
-      "channels": [
-        {
-          "name": "Tigo Sports | Honduras",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIw",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento20"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30637,
-      "time": "16:00:00",
-      "date": "2026-01-28",
-      "description": " Primera División: Libertad vs Sportivo Ameliano",
-      "country": "Paraguay",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paraguay_fc9dd78de7_fda39878d0.png",
-      "channels": [
-        {
-          "name": "Tigo Sports - Paraguay",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4z",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even3"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30634,
-      "time": "16:10:00",
-      "date": "2026-01-28",
-      "description": "Categoría Primera A: \nAlianza vs Boyacá Chicó",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30629,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Atlético Mineiro vs Palmeiras",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        },
-        {
-          "name": "Premiere 1 BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30627,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Internacional vs Athletico-PR",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere - 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
-        },
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30626,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Vitória vs Remo",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30628,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Coritiba vs RB Bragantino",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30623,
-      "time": "17:00:00",
-      "date": "2026-01-28",
-      "description": "Liga Profesional: Racing Club vs Rosario Central",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnByZW1pdW0=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnpremium"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30646,
-      "time": "17:30:00",
-      "date": "2026-01-28",
-      "description": "Copa América de Futsal: \nUruguay vs Paraguay",
-      "country": "Conmebol",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/conmebol_d03512952a_0a585d86af.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30630,
-      "time": "17:30:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: \nFluminense vs Grêmio",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere 3 BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere3"
-        },
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30631,
-      "time": "18:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão: Chapecoense vs Santos",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere - 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW40",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even4"
-        },
-        {
-          "name": "Premiere BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30624,
-      "time": "18:00:00",
-      "date": "2026-01-28",
-      "description": "Liga Profesional: \nRiver Plate vs Gimnasia La Plata",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjU=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09dG50c3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 6
-    },
-    {
-      "id": 30651,
-      "time": "18:00:00",
-      "date": "2026-01-28",
-      "description": "Liga Nacional: Guastatoya vs Aurora",
-      "country": "Guatemala",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Guatemala_3d1523a610.png",
-      "channels": [
-        {
-          "name": "Tigo Sports - Guatemala",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW50bzIy",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=evento22"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30632,
-      "time": "18:00:00",
-      "date": "2026-01-28",
-      "description": "Brasileirão:  Corinthians vs Bahia",
-      "country": "Brasil",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
-      "channels": [
-        {
-          "name": "Premiere 2 BR ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUy",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere2"
-        },
-        {
-          "name": "Sportv BR",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09c3BvcnR2",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=sportv"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30638,
       "time": "18:15:00",
@@ -463,25 +153,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30666,
-      "time": "19:30:00",
-      "date": "2026-01-28",
-      "description": "NBA: Boston Celtics vs Atlanta Hawks",
-      "country": "NBA",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
-      "channels": [
-        {
-          "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+          "name": "NBA Señal 7",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW43",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even7"
         }
       ],
       "channel_count": 1
@@ -498,6 +172,22 @@
           "name": "Premiere BR ",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30666,
+      "time": "19:30:00",
+      "date": "2026-01-28",
+      "description": "NBA: Boston Celtics vs Atlanta Hawks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 8",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
         }
       ],
       "channel_count": 1
