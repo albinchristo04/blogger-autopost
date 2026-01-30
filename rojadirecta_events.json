@@ -1,12 +1,28 @@
 {
-  "scraped_at": "2026-01-30T11:30:47.491192",
+  "scraped_at": "2026-01-30T13:01:12.668299",
   "total_events": 29,
   "events": [
     {
-      "id": 30747,
-      "time": "03:25:00",
+      "id": 30751,
+      "time": "06:00:00",
       "date": "2026-01-30",
-      "description": "Australian Open – Dia #13 – Semifinal Masculina",
+      "description": "UEFA Champions League: \nUEFA Champions League Draw",
+      "country": "UEFA Champions League",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30753,
+      "time": "06:45:00",
+      "date": "2026-01-30",
+      "description": "N. Djokovic vs J. Sinner - Semifinal",
       "country": "Tennis",
       "flag_url": "https://img.futbolonlinehd.com/uploads/Tenis_a5d5fcd1d1_594ebf0186.png",
       "channels": [
@@ -29,22 +45,6 @@
       "channel_count": 3
     },
     {
-      "id": 30751,
-      "time": "06:00:00",
-      "date": "2026-01-30",
-      "description": "UEFA Champions League: \nUEFA Champions League Draw",
-      "country": "UEFA Champions League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/UEFA_Champions_L_e95eab40e4_9fff1e273b.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30752,
       "time": "07:00:00",
       "date": "2026-01-30",
@@ -53,9 +53,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
       "channels": [
         {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
+          "name": "ESPN",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
         }
       ],
       "channel_count": 1
