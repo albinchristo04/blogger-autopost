@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-30T18:48:00.853376",
-  "total_events": 27,
+  "scraped_at": "2026-01-30T19:33:44.474122",
+  "total_events": 28,
   "events": [
     {
       "id": 30724,
@@ -386,6 +386,32 @@
         }
       ],
       "channel_count": 1
+    },
+    {
+      "id": 30755,
+      "time": "18:00:00",
+      "date": "2026-01-30",
+      "description": "Torneo amistoso de Verano: The Strongest vs Bolívar",
+      "country": "Bolivia",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/bolivia_png_81cfc9f71f.png",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
+        },
+        {
+          "name": "Futbol Canal | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
+        },
+        {
+          "name": "Futbol Canal | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
+        }
+      ],
+      "channel_count": 3
     },
     {
       "id": 30730,
