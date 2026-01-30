@@ -1,49 +1,7 @@
 {
-  "scraped_at": "2026-01-30T14:36:55.483488",
-  "total_events": 28,
+  "scraped_at": "2026-01-30T15:37:37.133011",
+  "total_events": 26,
   "events": [
-    {
-      "id": 30753,
-      "time": "06:45:00",
-      "date": "2026-01-30",
-      "description": "N. Djokovic vs J. Sinner - Semifinal",
-      "country": "Tennis",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Tenis_a5d5fcd1d1_594ebf0186.png",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30752,
-      "time": "07:00:00",
-      "date": "2026-01-30",
-      "description": "UEFA Europa League: UEFA Europa League Draw",
-      "country": "UEFA Europa League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefael_2b6c82aa64_3944ac820b.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30724,
       "time": "12:00:00",
