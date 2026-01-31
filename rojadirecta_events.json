@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-01-31T10:27:57.194975",
-  "total_events": 59,
+  "scraped_at": "2026-01-31T11:23:01.981727",
+  "total_events": 58,
   "events": [
-    {
-      "id": 30821,
-      "time": "03:00:00",
-      "date": "2026-01-31",
-      "description": "Australian Open – Final Femenina",
-      "country": "Tennis",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Tenis_a5d5fcd1d1_594ebf0186.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30824,
       "time": "05:15:00",
@@ -40,22 +24,6 @@
       "channel_count": 2
     },
     {
-      "id": 30800,
-      "time": "07:00:00",
-      "date": "2026-01-31",
-      "description": "2. Bundesliga: Eintracht Braunschweig vs Karlsruher SC",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
       "id": 30801,
       "time": "07:00:00",
       "date": "2026-01-31",
@@ -64,9 +32,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
         }
       ],
       "channel_count": 1
@@ -80,9 +48,25 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30800,
+      "time": "07:00:00",
+      "date": "2026-01-31",
+      "description": "2. Bundesliga: Eintracht Braunschweig vs Karlsruher SC",
+      "country": "Alemania",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
         }
       ],
       "channel_count": 1
@@ -96,9 +80,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
         }
       ],
       "channel_count": 1
@@ -111,6 +95,21 @@
       "country": "España",
       "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
       "channels": [
+        {
+          "name": "DSports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZHNwb3J0cw==",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=dsports"
+        },
         {
           "name": "ESPN Deportes",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
@@ -127,7 +126,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
         }
       ],
-      "channel_count": 3
+      "channel_count": 6
     },
     {
       "id": 30778,
@@ -143,6 +142,11 @@
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
         },
         {
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN MX | OP2",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
           "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
@@ -153,7 +157,7 @@
           "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30783,
