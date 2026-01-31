@@ -1,38 +1,7 @@
 {
-  "scraped_at": "2026-01-31T16:32:28.451425",
-  "total_events": 63,
+  "scraped_at": "2026-01-31T17:25:14.342234",
+  "total_events": 62,
   "events": [
-    {
-      "id": 30778,
-      "time": "09:00:00",
-      "date": "2026-01-31",
-      "description": "Serie A: \nPisa vs Sassuolo",
-      "country": "Italia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/italia_cb19445d70_41852551f1.png",
-      "channels": [
-        {
-          "name": "ESPN MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
-        },
-        {
-          "name": "Disney 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
-        }
-      ],
-      "channel_count": 4
-    },
     {
       "id": 30785,
       "time": "09:30:00",
