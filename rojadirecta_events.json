@@ -1,55 +1,7 @@
 {
-  "scraped_at": "2026-01-31T14:26:44.843300",
-  "total_events": 68,
+  "scraped_at": "2026-01-31T15:27:11.822603",
+  "total_events": 65,
   "events": [
-    {
-      "id": 30801,
-      "time": "07:00:00",
-      "date": "2026-01-31",
-      "description": "2. Bundesliga: \nHolstein Kiel vs Greuther Fürth",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney1"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30802,
-      "time": "07:00:00",
-      "date": "2026-01-31",
-      "description": "2. Bundesliga: Bochum vs Schalke 04",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30800,
-      "time": "07:00:00",
-      "date": "2026-01-31",
-      "description": "2. Bundesliga: Eintracht Braunschweig vs Karlsruher SC",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Mw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney3"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30798,
       "time": "07:30:00",
