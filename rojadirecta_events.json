@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-01-31T04:26:13.779565",
-  "total_events": 9,
+  "scraped_at": "2026-01-31T05:39:37.256629",
+  "total_events": 8,
   "events": [
-    {
-      "id": 30749,
-      "time": "20:30:00",
-      "date": "2026-01-30",
-      "description": "BOXEO: Bryan Flores vs Sterling Castillo",
-      "country": "Boxeo",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/boxeo_2024_b15889ae93_ae58e10dcb.png",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjM=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30764,
       "time": "21:00:00",
