@@ -1,80 +1,7 @@
 {
-  "scraped_at": "2026-01-31T21:24:27.732003",
-  "total_events": 44,
+  "scraped_at": "2026-01-31T22:26:06.005137",
+  "total_events": 41,
   "events": [
-    {
-      "id": 30834,
-      "time": "13:30:00",
-      "date": "2026-01-31",
-      "description": "U. de Concepción vs Coquimbo (Liga de Primera División, Chile)",
-      "country": "Chile",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
-      "channels": [
-        {
-          "name": "TNT Sports - Chile",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
-        },
-        {
-          "name": "HBO MAX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30843,
-      "time": "14:00:00",
-      "date": "2026-01-31",
-      "description": "Primera B: \tEnvigado vs  Ind. Yumbo",
-      "country": "Colombia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/colombia_dcf9cc2637_a1661b26da.png",
-      "channels": [
-        {
-          "name": "Win Sports 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRzMg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30825,
-      "time": "14:00:00",
-      "date": "2026-01-31",
-      "description": "Torneo Amistoso de Verano: Universitario de Vinto vs Aurora",
-      "country": "Bolivia",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/bolivia_png_81cfc9f71f.png",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
-        },
-        {
-          "name": "Futbol Canal | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
-        },
-        {
-          "name": "Futbol Canal | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW4x",
-          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even1"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30837,
       "time": "14:30:00",
@@ -606,12 +533,27 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/amistoso_paises_b9febc0d3c_e1d457d1ee.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "RCN CO",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
+          "name": "Win Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09d2luc3BvcnRz",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT13aW5zcG9ydHM=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=winsports"
         }
       ],
-      "channel_count": 1
+      "channel_count": 4
     },
     {
       "id": 30791,
@@ -648,12 +590,27 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_fbc29cb609_69a4b8272a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+          "name": "Disney 10",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5MTA=",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney10"
+        },
+        {
+          "name": "ESPN MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbm14",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbm14",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
+          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espnmx"
         }
       ],
-      "channel_count": 1
+      "channel_count": 4
     },
     {
       "id": 30795,
