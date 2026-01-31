@@ -1,64 +1,7 @@
 {
-  "scraped_at": "2026-01-31T15:27:11.822603",
-  "total_events": 65,
+  "scraped_at": "2026-01-31T16:32:28.451425",
+  "total_events": 63,
   "events": [
-    {
-      "id": 30798,
-      "time": "07:30:00",
-      "date": "2026-01-31",
-      "description": "Championship: Stoke City vs Southampton",
-      "country": "Inglaterra",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/inglaterra_823176495f_fc4f47c43e.png",
-      "channels": [
-        {
-          "name": "Disney 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney4"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30774,
-      "time": "08:00:00",
-      "date": "2026-01-31",
-      "description": "LaLiga: Real Oviedo vs Girona",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "DSports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZHNwb3J0cw==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/online/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbmRlcG9ydGVz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
-        }
-      ],
-      "channel_count": 6
-    },
     {
       "id": 30778,
       "time": "09:00:00",
@@ -486,12 +429,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
       "channels": [
         {
+          "name": "NBA Señal 5",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        },
+        {
           "name": "NBA",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
           "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30779,
