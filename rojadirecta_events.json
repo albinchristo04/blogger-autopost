@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-01-31T09:30:59.024970",
-  "total_events": 58,
+  "scraped_at": "2026-01-31T10:27:57.194975",
+  "total_events": 59,
   "events": [
     {
       "id": 30821,
@@ -17,6 +17,27 @@
         }
       ],
       "channel_count": 1
+    },
+    {
+      "id": 30824,
+      "time": "05:15:00",
+      "date": "2026-01-31",
+      "description": "A. Sabalenka vs E. Rybakyna - Final",
+      "country": "Tennis",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/Tenis_a5d5fcd1d1_594ebf0186.png",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN I OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
+        }
+      ],
+      "channel_count": 2
     },
     {
       "id": 30800,
