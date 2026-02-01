@@ -1,80 +1,7 @@
 {
-  "scraped_at": "2026-02-01T13:46:00.754872",
-  "total_events": 56,
+  "scraped_at": "2026-02-01T14:29:04.805878",
+  "total_events": 64,
   "events": [
-    {
-      "id": 30901,
-      "time": "05:45:00",
-      "date": "2026-02-01",
-      "description": "Novak Djokovic VS Carlos Alcaraz",
-      "country": "Tennis",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/Tenis_a5d5fcd1d1_594ebf0186.png",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjI=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn2"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30896,
-      "time": "06:15:00",
-      "date": "2026-02-01",
-      "description": "Eredivisie Femenina: PEC Zwolle vs AZ",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN NL ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjFfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbjFfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMV9ubA==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ],
-      "channel_count": 3
-    },
-    {
-      "id": 30882,
-      "time": "06:15:00",
-      "date": "2026-02-01",
-      "description": "Eredivisie: Excelsior vs Ajax",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjJteA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn2mx"
-        },
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbjNfbmw=",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 2
-    },
     {
       "id": 30857,
       "time": "06:30:00",
@@ -495,12 +422,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
       "channels": [
         {
+          "name": "TNT Sports - Chile",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        },
+        {
+          "name": "HBO MAX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        },
+        {
           "name": "MAX 03",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mw==",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max3"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30888,
@@ -1098,6 +1035,43 @@
       "channel_count": 3
     },
     {
+      "id": 30904,
+      "time": "15:30:00",
+      "date": "2026-02-01",
+      "description": "NBA: Boston Celtics vs Milwaukee Bucks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30914,
+      "time": "16:00:00",
+      "date": "2026-02-01",
+      "description": "La Serena vs Universidad Católica",
+      "country": "Chile",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/chile_86c07a7b38_fad5126fd0.png",
+      "channels": [
+        {
+          "name": "TNT Sports - Chile",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        },
+        {
+          "name": "HBO MAX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW44",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even8"
+        }
+      ],
+      "channel_count": 2
+    },
+    {
       "id": 30876,
       "time": "16:00:00",
       "date": "2026-02-01",
@@ -1166,6 +1140,22 @@
       "channel_count": 3
     },
     {
+      "id": 30905,
+      "time": "18:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: Washington Wizards vs Sacramento Kings",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30848,
       "time": "18:00:00",
       "date": "2026-02-01",
@@ -1192,6 +1182,38 @@
       "channel_count": 3
     },
     {
+      "id": 30907,
+      "time": "18:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: Miami Heat vs Chicago Bulls",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30908,
+      "time": "18:00:00",
+      "date": "2026-02-01",
+      "description": "NBA:  Detroit Pistons vs Brooklyn Nets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30894,
       "time": "18:00:00",
       "date": "2026-02-01",
@@ -1216,6 +1238,22 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30906,
+      "time": "18:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: Toronto Raptors vs Utah Jazz",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30873,
@@ -1276,6 +1314,38 @@
       "channel_count": 1
     },
     {
+      "id": 30909,
+      "time": "19:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: San Antonio Spurs vs Orlando Magic",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30910,
+      "time": "19:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: New York Knicks vs Los Angeles Lakers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30870,
       "time": "19:30:00",
       "date": "2026-02-01",
@@ -1300,6 +1370,22 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30911,
+      "time": "20:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: Phoenix Suns vs Los Angeles Clippers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30874,
@@ -1339,6 +1425,38 @@
           "name": "Win Sports",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09d2luc3BvcnRz",
           "decoded_url": "https://futbollibrelibre.com/canales.php?stream=winsports"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30912,
+      "time": "21:00:00",
+      "date": "2026-02-01",
+      "description": "NBA: Portland Trail Blazers vs Cleveland Cavaliers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30913,
+      "time": "21:30:00",
+      "date": "2026-02-01",
+      "description": "NBA: Denver Nuggets vs Oklahoma City Thunder",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW42",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even6"
         }
       ],
       "channel_count": 1
