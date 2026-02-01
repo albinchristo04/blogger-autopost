@@ -1,137 +1,7 @@
 {
-  "scraped_at": "2026-02-01T15:28:07.393605",
+  "scraped_at": "2026-02-01T16:33:24.271108",
   "total_events": 68,
   "events": [
-    {
-      "id": 30879,
-      "time": "07:30:00",
-      "date": "2026-02-01",
-      "description": "2. Bundesliga: Dynamo Dresden vs Arminia Bielefeld",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 05",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5NQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney5"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30881,
-      "time": "07:30:00",
-      "date": "2026-02-01",
-      "description": "2. Bundesliga: \nFortuna Düsseldorf vs Paderborn",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 07",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Nw==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney7"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30880,
-      "time": "07:30:00",
-      "date": "2026-02-01",
-      "description": "2. Bundesliga: \nHertha BSC vs Darmstadt 98",
-      "country": "Alemania",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
-      "channels": [
-        {
-          "name": "Disney 06",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5Ng==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney6"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30887,
-      "time": "08:00:00",
-      "date": "2026-02-01",
-      "description": "LaLiga SmartBank: Almería vs Ceuta",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09aHlwZXJtb3Rpb24x",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=hypermotion1"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OQ==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney9"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30853,
-      "time": "08:00:00",
-      "date": "2026-02-01",
-      "description": "LaLiga: Real Madrid vs Rayo Vallecano",
-      "country": "España",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/espana_a8510f9b5f_9213b1e460.png",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbg==",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "Disney 08",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZGlzbmV5OA==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=disney8"
-        },
-        {
-          "name": "ESPN Deportes",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9vbmxpbmUvY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5kZXBvcnRlcw==",
-          "decoded_url": "https://futbollibrelibre.com/online/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsLnBocD9zdHJlYW09ZXNwbmRlcG9ydGVz",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes  | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS92aXZvL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuZGVwb3J0ZXM=",
-          "decoded_url": "https://futbollibrelibre.com/vivo/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Plus 01",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMxCg==",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus1\n"
-        },
-        {
-          "name": "ESPN Plus 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMy",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus2"
-        },
-        {
-          "name": "ESPN Plus 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09ZXNwbnBsdXMz",
-          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=espnplus3"
-        }
-      ],
-      "channel_count": 10
-    },
     {
       "id": 30884,
       "time": "08:30:00",
@@ -863,6 +733,27 @@
       "channel_count": 3
     },
     {
+      "id": 30921,
+      "time": "14:00:00",
+      "date": "2026-02-01",
+      "description": "Supercopa de Brasil: Flamengo vs Corinthians",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Premiere BR ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09cHJlbWllcmUx",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        }
+      ],
+      "channel_count": 2
+    },
+    {
       "id": 30860,
       "time": "14:45:00",
       "date": "2026-02-01",
@@ -1136,6 +1027,38 @@
       "channel_count": 3
     },
     {
+      "id": 30922,
+      "time": "16:15:00",
+      "date": "2026-02-01",
+      "description": "Campeonato Paulista A1: \nRB Bragantino vs São Bernardo",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4MQ==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max1"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30923,
+      "time": "16:30:00",
+      "date": "2026-02-01",
+      "description": "Campeonato Paulista A1: \nMirassol vs Novorizontino",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4Mg==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30869,
       "time": "17:15:00",
       "date": "2026-02-01",
@@ -1362,6 +1285,22 @@
       "channel_count": 3
     },
     {
+      "id": 30925,
+      "time": "18:30:00",
+      "date": "2026-02-01",
+      "description": "Campeonato Carioca: Botafogo vs Fluminense",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS90di9jYW5hbC5waHA/c3RyZWFtPWV2ZW41",
+          "decoded_url": "https://futbollibrelibre.com/tv/canal.php?stream=even5"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30915,
       "time": "18:30:00",
       "date": "2026-02-01",
@@ -1381,6 +1320,22 @@
         }
       ],
       "channel_count": 2
+    },
+    {
+      "id": 30924,
+      "time": "18:30:00",
+      "date": "2026-02-01",
+      "description": "Campeonato Paulista A1: Botafogo SP vs Palmeiras",
+      "country": "Brasil",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/brasil_25a533e5f7_a1a1ef7a7c.png",
+      "channels": [
+        {
+          "name": "MAX 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly9mdXRib2xsaWJyZWxpYnJlLmNvbS9jYW5hbGVzLnBocD9zdHJlYW09bWF4NA==",
+          "decoded_url": "https://futbollibrelibre.com/canales.php?stream=max4"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30909,
