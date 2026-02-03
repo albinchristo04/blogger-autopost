@@ -1,49 +1,7 @@
 {
-  "scraped_at": "2026-02-03T21:38:18.230004",
-  "total_events": 19,
+  "scraped_at": "2026-02-03T22:32:33.048276",
+  "total_events": 17,
   "events": [
-    {
-      "id": 30966,
-      "time": "14:00:00",
-      "date": "2026-02-03",
-      "description": "Eerste Divisie: Dordrecht vs Helmond Sport",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN 3 NL",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuM19ubA==",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn3_nl"
-        }
-      ],
-      "channel_count": 1
-    },
-    {
-      "id": 30967,
-      "time": "14:00:00",
-      "date": "2026-02-03",
-      "description": "Copa KNVB: AZ vs Twente",
-      "country": "Paises Bajos",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/paises_bajos_f773e994b9_3bb0d207d2.png",
-      "channels": [
-        {
-          "name": "ESPN NL ",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMV9ubA==",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMV9ubA==",
-          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4xX25s",
-          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30954,
       "time": "14:45:00",
