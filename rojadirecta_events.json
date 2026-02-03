@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-02-03T14:46:19.687382",
-  "total_events": 15,
+  "scraped_at": "2026-02-03T16:56:50.855817",
+  "total_events": 22,
   "events": [
-    {
-      "id": 30962,
-      "time": "08:00:00",
-      "date": "2026-02-03",
-      "description": " UEFA Youth League: \nAZ  vs Borussia Dortmund ",
-      "country": "UEFA Youth League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
-      "channels": [
-        {
-          "name": "Disney Plus +4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
-          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30963,
       "time": "10:00:00",
@@ -27,12 +11,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Disney Plus +4",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
+        },
+        {
+          "name": "Disney 03",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkz",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30964,
@@ -43,12 +32,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Disney Plus +3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        },
+        {
+          "name": "Disney Plus (+2)",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        },
+        {
+          "name": "Disney 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXky",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30965,
@@ -59,9 +58,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Disney 04",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk0",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ],
       "channel_count": 1
@@ -130,9 +129,14 @@
           "name": "ESPN 2 | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4y",
           "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney 06",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
     },
     {
       "id": 30956,
@@ -143,12 +147,17 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/alemania_e50aa475de_965dccfbbd.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Disney 05",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk1",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
+          "name": "ESPN 3 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuM214",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn3mx"
         }
       ],
-      "channel_count": 1
+      "channel_count": 2
     },
     {
       "id": 30955,
@@ -172,9 +181,19 @@
           "name": "ESPN AR┃OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4=",
           "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney 07",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk3",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn2mx"
         }
       ],
-      "channel_count": 3
+      "channel_count": 5
     },
     {
       "id": 30957,
@@ -198,9 +217,70 @@
           "name": "Movistar Deportes | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1tb3Zpc3Rhcg==",
           "decoded_url": "https://tvtvhd.com/canales.php?stream=movistar"
+        },
+        {
+          "name": "America Television",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWVyaWNhdHY=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWVyaWNhdHY=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "ESPN Plus 01",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BucGx1czE=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=espnplus1"
+        },
+        {
+          "name": "ESPN Plus 02",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BucGx1czI=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=espnplus2"
         }
       ],
-      "channel_count": 3
+      "channel_count": 7
+    },
+    {
+      "id": 30976,
+      "time": "15:00:00",
+      "date": "2026-02-03",
+      "description": "Copa de Francia: Olympique Marseille vs Rennes",
+      "country": "Francia",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/bandera_francia_9e29308ee7.png",
+      "channels": [
+        {
+          "name": "DSports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kc3BvcnRz",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1kc3BvcnRz",
+          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "FOX Deportes",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1mb3hkZXBvcnRlcw==",
+          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWZveGRlcG9ydGVz",
+          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ],
+      "channel_count": 6
     },
     {
       "id": 30958,
@@ -224,6 +304,32 @@
           "name": "TNT Sports | OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
           "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ],
+      "channel_count": 3
+    },
+    {
+      "id": 30969,
+      "time": "19:00:00",
+      "date": "2026-02-03",
+      "description": "Copa de Campeones de la Concacaf: Forge vs Tigres UANL",
+      "country": "CONCACAF W",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/CONCACAF_W_b46ae6ffee.png",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR1ZG4=",
+          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
         }
       ],
       "channel_count": 3
@@ -276,9 +382,30 @@
           "name": "ESPN Premium┃OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5wcmVtaXVt",
           "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney 09",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk5",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney9"
         }
       ],
-      "channel_count": 3
+      "channel_count": 4
+    },
+    {
+      "id": 30972,
+      "time": "19:30:00",
+      "date": "2026-02-03",
+      "description": "NBA: Lakers vs Nets",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30961,
@@ -307,6 +434,22 @@
       "channel_count": 3
     },
     {
+      "id": 30973,
+      "time": "20:00:00",
+      "date": "2026-02-03",
+      "description": "NBA: Celtics vs Mavericks",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30968,
       "time": "20:00:00",
       "date": "2026-02-03",
@@ -331,6 +474,110 @@
         }
       ],
       "channel_count": 3
+    },
+    {
+      "id": 30970,
+      "time": "21:00:00",
+      "date": "2026-02-03",
+      "description": "Copa de Campeones de la Concacaf: Olimpia vs América",
+      "country": "CONCACAF Liga de Campeones",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/concacaf_liga_campeones_fad6673376_904ea61955.png",
+      "channels": [
+        {
+          "name": "Disney 11",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMQ==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney11"
+        },
+        {
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR1ZG4=",
+          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        }
+      ],
+      "channel_count": 4
+    },
+    {
+      "id": 30974,
+      "time": "22:00:00",
+      "date": "2026-02-03",
+      "description": "NBA: 76ers vs Warriors",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30975,
+      "time": "23:00:00",
+      "date": "2026-02-03",
+      "description": "NBA: Suns vs Trail Blazers",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ],
+      "channel_count": 3
+    },
+    {
+      "id": 30971,
+      "time": "23:00:00",
+      "date": "2026-02-03",
+      "description": "Copa de Campeones de la Concacaf: San Diego vs Pumas UNAM",
+      "country": "CONCACAF Liga de Campeones",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/concacaf_liga_campeones_fad6673376_904ea61955.png",
+      "channels": [
+        {
+          "name": "Disney 12",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMg==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney12"
+        },
+        {
+          "name": "TUDN USA",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT10dWRu",
+          "decoded_url": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR1ZG4=",
+          "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        }
+      ],
+      "channel_count": 4
     }
   ]
 }
