@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-03T10:42:57.338770",
+  "scraped_at": "2026-02-03T13:06:34.407385",
   "total_events": 15,
   "events": [
     {
@@ -11,9 +11,9 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
       "channels": [
         {
-          "name": "DISNEY +",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Disney Plus +4",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
         }
       ],
       "channel_count": 1
@@ -211,12 +211,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
       "channels": [
         {
+          "name": "TNT Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
           "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0cw==",
-          "decoded_url": "https://tvtvhd.com/vivo/vivo/canal.php?stream=tntsports"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30960,
@@ -227,12 +237,22 @@
       "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
       "channels": [
         {
+          "name": "TNT Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
           "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vdml2by9jYW5hbC5waHA/c3RyZWFtPXRudHNwb3J0cw==",
-          "decoded_url": "https://tvtvhd.com/vivo/vivo/canal.php?stream=tntsports"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
         }
       ],
-      "channel_count": 1
+      "channel_count": 3
     },
     {
       "id": 30959,
