@@ -1,54 +1,7 @@
 {
-  "scraped_at": "2026-02-03T17:55:39.921036",
-  "total_events": 22,
+  "scraped_at": "2026-02-03T19:00:53.832559",
+  "total_events": 20,
   "events": [
-    {
-      "id": 30963,
-      "time": "10:00:00",
-      "date": "2026-02-03",
-      "description": " UEFA Youth League: \nReal Madrid  vs Marseille",
-      "country": "UEFA Youth League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
-      "channels": [
-        {
-          "name": "Disney Plus +4",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
-          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
-        },
-        {
-          "name": "Disney 03",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkz",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney3"
-        }
-      ],
-      "channel_count": 2
-    },
-    {
-      "id": 30964,
-      "time": "10:00:00",
-      "date": "2026-02-03",
-      "description": " UEFA Youth League: Club Brugge  vs Monaco",
-      "country": "UEFA Youth League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
-      "channels": [
-        {
-          "name": "Disney Plus +3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
-          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
-        },
-        {
-          "name": "Disney Plus (+2)",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
-          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
-        },
-        {
-          "name": "Disney 02",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXky",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney2"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30965,
       "time": "12:00:00",
