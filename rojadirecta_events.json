@@ -1,23 +1,7 @@
 {
-  "scraped_at": "2026-02-03T19:00:53.832559",
-  "total_events": 20,
+  "scraped_at": "2026-02-03T20:40:25.894613",
+  "total_events": 19,
   "events": [
-    {
-      "id": 30965,
-      "time": "12:00:00",
-      "date": "2026-02-03",
-      "description": " UEFA Youth League: \nChelsea  vs PSV",
-      "country": "UEFA Youth League",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/uefa_youth_league_340883829a.png",
-      "channels": [
-        {
-          "name": "Disney 04",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk0",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney4"
-        }
-      ],
-      "channel_count": 1
-    },
     {
       "id": 30966,
       "time": "14:00:00",
