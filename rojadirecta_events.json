@@ -1,33 +1,7 @@
 {
-  "scraped_at": "2026-02-03T23:30:41.660091",
-  "total_events": 12,
+  "scraped_at": "2026-02-04T02:21:24.026980",
+  "total_events": 14,
   "events": [
-    {
-      "id": 30958,
-      "time": "17:00:00",
-      "date": "2026-02-03",
-      "description": " Liga Profesional: \nBanfield vs Estudiantes Río Cuarto",
-      "country": "Argentina",
-      "flag_url": "https://img.futbolonlinehd.com/uploads/argentina_2bd748026e_628913fc18.png",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT10bnRzcG9ydHM=",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=tntsports"
-        }
-      ],
-      "channel_count": 3
-    },
     {
       "id": 30969,
       "time": "19:00:00",
@@ -112,6 +86,38 @@
       "channel_count": 4
     },
     {
+      "id": 30977,
+      "time": "19:30:00",
+      "date": "2026-02-03",
+      "description": "Detroit Pistons vs Denver Nuggets – Partido de la NBA",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 2",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjI=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even2"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
+      "id": 30979,
+      "time": "19:30:00",
+      "date": "2026-02-03",
+      "description": "Washington Wizards vs New York Knicks — Partido de la NBA",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 4",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
+        }
+      ],
+      "channel_count": 1
+    },
+    {
       "id": 30972,
       "time": "19:30:00",
       "date": "2026-02-03",
@@ -121,8 +127,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
         }
       ],
       "channel_count": 1
@@ -149,9 +155,40 @@
           "name": "ESPN AR┃OP3",
           "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4=",
           "decoded_url": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney 10",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMA==",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=disney10"
+        },
+        {
+          "name": "Fox Sports",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mb3hzcG9ydHMK",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "beIN Sports XTRA Ñ ",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1iZWluc3BvcnRfeHRyYV9lc3Bhbm9s",
+          "decoded_url": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
         }
       ],
-      "channel_count": 3
+      "channel_count": 6
+    },
+    {
+      "id": 30978,
+      "time": "19:30:00",
+      "date": "2026-02-03",
+      "description": "Indiana Pacers vs Utah Jazz — Partido de la NBA",
+      "country": "NBA",
+      "flag_url": "https://img.futbolonlinehd.com/uploads/nba_b6210b97b6_06c9c65d5f.png",
+      "channels": [
+        {
+          "name": "NBA Señal 3",
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        }
+      ],
+      "channel_count": 1
     },
     {
       "id": 30973,
@@ -163,8 +200,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
         }
       ],
       "channel_count": 1
@@ -236,8 +273,8 @@
       "channels": [
         {
           "name": "NBA",
-          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1ldmVuMg==",
-          "decoded_url": "https://tvtvhd.com/canales.php?stream=even2"
+          "url": "https://rojadirectahd.futbol/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjQ=",
+          "decoded_url": "https://tvtvhd.com/tv/canal.php?stream=even4"
         }
       ],
       "channel_count": 1
